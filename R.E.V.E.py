@@ -169,3 +169,6 @@ else:
     clear()
     print "On a plus le temps de parler, de toutes facon tu ne peux plus reculer"
     print "C'est parti !"
+
+# Début de l'histoire
+# Prison (1)
