@@ -155,10 +155,11 @@ print "Testons tout de suite !"
 a=raw_input("Fais un [a] puis apuis sur [entrer]: ")
 print
 if a=="a":
-    print "ca fonctionne"
+    print "Ca fonctionne"
 else:
     print "Tu a fais une erreur, il faudra faire attention"
     print "une fois dans le reve sa pourrait te tuer !"
+print
 print "Je crois que tu est pres on entre dans le reve ?"
 play=raw_input("Oui: apuyez sur [a] - Non: apuyez sur [b] : ")
 if play=="a":
