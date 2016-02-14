@@ -168,6 +168,3 @@ else:
     clear()
     print "On a plus le temps de parler, de toutes facon tu ne peux plus reculer"
     print "C'est parti !"
-
-#test github
-print "hello world"
