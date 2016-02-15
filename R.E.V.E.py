@@ -1,6 +1,6 @@
 #Credits
-print "Histoire créée par Olivier Brassard & Camille Brassard"
-print "Developpé par Olivier Brassard"
+print "Histoire creee par Olivier Brassard & Camille Brassard"
+print "Developpe par Olivier Brassard"
 import sys
 def clear():
    sys.stdout.write('\033[2J')
