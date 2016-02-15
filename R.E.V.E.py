@@ -1,3 +1,15 @@
+#Credits
+print "Histoire créée par Olivier Brassard & Camille Brassard"
+print "Developpé par Olivier Brassard"
+import sys
+def clear():
+   sys.stdout.write('\033[2J')
+   sys.stdout.write('\033[H')
+   sys.stdout.flush()
+
+raw_input("Appuyez sur [ENTRER] pour executer le script du jeu")
+clear()
+
 #warning
 print "*** POUR LE BON FONCTIONNEMENT DU JEU, VERIFIEZ QUE "
 print " VOTRE TOUCHE VER.MAJ EST DESACTIVE  ***"
