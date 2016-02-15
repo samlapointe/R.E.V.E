@@ -273,7 +273,7 @@ if c2=="a":
             print "[ACCES AUTHORIZE]"
             print
             print "Vous courrez vers l'exterieur"
-            print "[La lumiere blanche envahi l'espace...]"
+            print "[La lumiere blanche envahie l'espace...]"
         else:
             print "De retour dans la salle des serveurs..."
             print "Vous remarquez une console que vous n'aviez pas vue anterieurement"
@@ -291,7 +291,7 @@ if c2=="a":
             print "[ACCES AUTHORIZE]"
             print
             print "Vous courrez vers l'exterieur"
-            print "[La lumiere blanche envahi l'espace...]"
+            print "[La lumiere blanche envahie l'espace...]"
 
     else:
         print "Vous rebroussez chemin"
@@ -356,7 +356,7 @@ if c2=="a":
             print "[ACCES AUTHORIZE]"
             print
             print "Vous courrez vers l'exterieur"
-            print "[La lumiere blanche envahi l'espace...]"
+            print "[La lumiere blanche envahie l'espace...]"
         else:
             print "De retour dans la salle des serveurs..."
             print "Vous remarquez une console que vous n'aviez pas vue anterieurement"
@@ -374,7 +374,7 @@ if c2=="a":
             print "[ACCES AUTHORIZE]"
             print
             print "Vous courrez vers l'exterieur"
-            print "[La lumiere blanche envahi l'espace...]"
+            print "[La lumiere blanche envahie l'espace...]"
 
 
 else:
@@ -442,7 +442,7 @@ else:
            print
            print "[ACCES AUTHORIZE]"
            print "Vous courrez vers l'exterieur"
-           print "[La lumiere blanche envahi l'espace...]"
+           print "[La lumiere blanche envahie l'espace...]"
 
        else:
            print "De retour dans la salle des serveurs..."
@@ -461,7 +461,7 @@ else:
            print "[ACCES AUTHORIZE]"
            print
            print "Vous courrez vers l'exterieur"
-           print "[La lumiere blanche envahi l'espace...]"
+           print "[La lumiere blanche envahie l'espace...]"
     else:
         print "Vous rebroussez chemin"
         print "Apres un peu de marche, vous sautez dans la seconde piece"
@@ -523,7 +523,7 @@ else:
             print "[ACCES AUTHORIZE]"
             print
             print "Vous courrez vers l'exterieur"
-            print "[La lumiere blanche envahi l'espace...]"
+            print "[La lumiere blanche envahie l'espace...]"
 
         else:
             print "De retour dans la salle des serveurs..."
@@ -542,4 +542,4 @@ else:
             print "[ACCES AUTHORIZE]"
             print
             print "Vous courrez vers l'exterieur"
-            print "[La lumiere blanche envahi l'espace...]"
+            print "[La lumiere blanche envahie l'espace...]"
