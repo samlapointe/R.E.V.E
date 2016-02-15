@@ -1,4 +1,5 @@
 #Credits
+print
 print "Histoire creee par Olivier Brassard & Camille Brassard"
 print "Developpe par Olivier Brassard"
 import sys
