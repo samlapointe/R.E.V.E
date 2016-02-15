@@ -170,5 +170,364 @@ else:
     print "On a plus le temps de parler, de toutes facon tu ne peux plus reculer"
     print "C'est parti !"
 
-# Début de l'histoire
-# Prison (1)
+# Debut de l'histoire
+# Labo
+raw_input("appuyez sur [ENTRER]")
+clear()
+print "Vous etes dans une piece sombre."
+print "Vous ne voyez rien."
+print "Vos yeux s'accomodent tranquillement a la noirceur"
+print "Vous distinguez maintenant une grande porte et, au plafond, une bouche d'aeration."
+print "Pour sortir de cette piece, voulez vous vous :"
+c1=raw_input("deplacer vers la porte [a] ou tenter de vous hisser vers les conduits [b]?: ")
+if c1=="a":
+    print "Vous etes face a la porte"
+    print "Vous remarquez qu'elle est verouille"
+    print "Il est possible d'ouvrir la porte a l'aide d'un mot de passe"
+    c1a=raw_input("essayer un mot de passse [a] ou rebrousser chemin [b]")
+    if c1a=="a":
+        print
+        raw_input("Entrez le mot de passe (puis faites entrer) : ")
+        print "[MOT DE PASSE INCORECT]"
+    else: True
+    print "Vous rebroussez chemin"
+else:
+    print "Vous prenez vorte elan et vous vous agrippez a la tuyauterie du plafond"
+    print "Vous poussez la grille et penetrez dans le conduit."
+print "Vous rempez tranquillement ..."
+print "Vous arrivez finalement a une INTERSECTION !!!"
+print "Dans quelle direction voulez-vous aller ?"
+c2=raw_input("Droite [a] ou Gauche [b]")
+if c2=="a":
+    print "Vous marchez vers le bout du conduit."
+    print "Vous appercevez maintenant une piece ou vous pourriez descedre "
+    c2a=raw_input("Descendre [a], rebrousser chemin [b]")
+    if c2a=="a":
+        print "Vous atterissez dans la piece remplie d'etrange etagere"
+        print "Elles sont remplies de nombreuses eprouvettes, bechers et bocaux"
+        print "Vous appercevez qu'il y a, dans quelques bocaux, des cerveaux flottants"
+        print "En panique, vous vous dirigez vers l'autre extremite de la piece"
+        print "Vous tombez alors sur un sarrau et des lunettes "
+        print "[Vous prenez  (et mettez) ces objets]"
+        print "Vous sortez par la porte"
+        raw_input("Appuyez sur [entrer]")
+        print "Vous arrivez alors au couloir"
+        print "Celui-ci contient deux portes."
+        print "la '501A' et la '502A'"
+        print "Laquelle Choisir ??"
+        port=raw_input("501A [a], 502A [b]")
+        if port=="a":
+            print "La salle est tres grande."
+            print "Vous entrez en toute discretion grace a votre fabuleux deguisement"
+            print "Vous explorez tranquillement sous  le regard interoge des scientifiques."
+            print "Toutefois, ceux ci ne semble pas trop comprendre la situation"
+            print "Ils n'ont  pas l'aire  d'etre tres sains d'esprit."
+            print "Vous remarquez qu'il n'y a rien de vraiment interessant alors vous sortez..."
+            print
+            print "Vous vous presentez alors devant l'autre salle."
+            print "La porte coulissante s'ouvre automatiquement"
+            print "[SON ELECTRONIQUE]"
+            print "Il s'agit d'une salle pleine d'equipement informatique"
+            print "Plus precisement, une salle des serveurs"
+            print
+            print "[VOUS TROUVEZ UNE CARTE MAGNETIQUE]"
+            print
+            print "Dans l'espoir de sortir de cet endroit tres etrange, vous vous dirigez"
+            print "d'un pas presse vers la porte du fond."
+        else:
+            print "Vous vous presentez alors devant la porte 502A."
+            print "La porte coulissante s'ouvre automatiquement"
+            print "[SON ELECTRONIQUE]"
+            print "Il s'agit d'une salle pleine d'equipement informatique"
+            print "Plus precisement, une salle des serveurs"
+            print
+            print "[VOUS TROUVEZ UNE CARTE MAGNETIQUE]"
+            print
+            print "Dans l'espoir de sortir de cet endroit, vous vous dirigez"
+            print "d'un pas presse vers la porte du fond."
+
+        print "Vous atteignez un nouveau corridor, etrangement, c'est un"
+        print "cul de sac... une seule porte coulissante..."
+        print "Vous vous approchez de cette porte et tentez de l'ouvrir"
+        print "Vous approchez la carte du lecteur..."
+        print
+        print "[ERREUR 351 - LECTURE IMPOSSIBLE]"
+        print
+        card=raw_input("Essayer une autre fois [a], retourner dans la salle des serveurs [b]")
+        if card=="a":
+            print "Vous re-tentez..."
+            print "La porte s'ouvre en un bruit sourd."
+            print
+            print "[ACCES AUTHORIZE]"
+            print
+            print "Vous courrez vers l'exterieur"
+            print "[La lumiere blanche envahi l'espace...]"
+        else:
+            print "De retour dans la salle des serveurs..."
+            print "Vous remarquez une console que vous n'aviez pas vue anterieurement"
+            print "Vous tentez d'y acceder"
+            raw_input("Entrez votre mot de passe: ")
+            print "[ACCES REFUSE]"
+            print
+            print "Une alarme retentis soudainement:"
+            print "[ALERTE 5 - INTRUSION AU systeme]"
+            print
+            print "Vous re-sortez, en courant, dans le corridor"
+            print "Vous re-tentez d'ouvrir la porte"
+            print "Elle s'ouvre en un bruit sourd."
+            print
+            print "[ACCES AUTHORIZE]"
+            print
+            print "Vous courrez vers l'exterieur"
+            print "[La lumiere blanche envahi l'espace...]"
+
+    else:
+        print "Vous rebroussez chemin"
+        print "Apres un peu de marche, vous sautez dans la seconde piece"
+        print "Elle contient toute sortes de placards vitres"
+        print "Vous choisissez une des portes de cette piece ronde et peu eclairee"
+        print "Vous examinez son contenu."
+        print
+        print "Vous remaqrquez qu'il s'agit d'une vaste collection"
+        print "d'arme experimentale."
+        print "[Vous prenez une arme, (au cas ou)]"
+        print "Vous sortez par la porte principale"
+        raw_input("Apuyez sur [entrer]")
+        print "Vous arrivez alors a un couloir"
+        print "Celui-ci contient deux portes."
+        print "la '501A' et la '502A'"
+        print "Laquelle Choisir ??"
+        port1=raw_input("501A [a], 502A [b]")
+        if port1=="a":
+            print "La salle est tres grande."
+            print "Vous entrez en vitesse"
+            print "Les scientifiques affoles se dirigent vers vous."
+            print "Ils n'ont  pas l'aire  d'etre tres sains d'esprit."
+            print "Vous prenez votre fusil au plasma et vous les desintegrez"
+            print "Vous ne voulez pas etre detecte alors vous sortez..."
+            print
+            print "Vous vous presentez devant la salle 502A."
+            print "La porte coulissante s'ouvre automatiquement"
+            print "[SON ELECTRONIQUE]"
+            print "Il s'agit d'une salle pleine d'equipement informatique"
+            print "Plus precisement, une salle des serveurs"
+            print
+            print "[VOUS TROUVEZ UNE CARTE MAGNETIQUE]"
+            print
+            print "Dans l'espoir de sortir de cet endroit tres etrange, vous vous dirigez"
+            print "d'un pas presse vers la porte du fond."
+
+        else:
+            print "Vous vous presentez devant la salle 502A."
+            print "La porte coulissante s'ouvre automatiquement"
+            print "[SON ELECTRONIQUE]"
+            print "Il s'agit d'une salle pleine d'equipement informatique"
+            print "Plus precisement, une salle des serveurs"
+            print
+            print "[VOUS TROUVEZ UNE CARTE MAGNETIQUE]"
+            print
+            print "Dans l'espoir de sortir de cet endroit tres etrange, vous vous dirigez"
+            print "d'un pas presse vers la porte du fond."
+            print
+        print "Vous atteignez un nouveau corridor, etrangement, c'est un"
+        print "cul de sac... une seule porte coulissante..."
+        print "Vous vous approchez de cette porte et tentez de l'ouvrir"
+        print "Vous approchez la carte du lecteur..."
+        print
+        print "[ERREUR 351 - LECTURE IMPOSSIBLE]"
+        print
+        card2=raw_input("Essayer une autre fois [a], retourner dans la salle des serveurs [b]")
+        if card2=="a":
+            print "Vous re-tentez..."
+            print "La porte s'ouvre en un bruit sourd."
+            print
+            print "[ACCES AUTHORIZE]"
+            print
+            print "Vous courrez vers l'exterieur"
+            print "[La lumiere blanche envahi l'espace...]"
+        else:
+            print "De retour dans la salle des serveurs..."
+            print "Vous remarquez une console que vous n'aviez pas vue anterieurement"
+            print "Vous tentez d'y acceder"
+            raw_input("Entrez votre mot de passe: ")
+            print "[ACCES REFUSE]"
+            print
+            print "Une alarme retentis soudainement:"
+            print "[ALERTE 5 - INTRUSION AU systeme]"
+            print
+            print "Vous re-sortez, en courant, dans le corridor"
+            print "Vous re-tentez d'ouvrir la porte"
+            print "Elle s'ouvre en un bruit sourd."
+            print
+            print "[ACCES AUTHORIZE]"
+            print
+            print "Vous courrez vers l'exterieur"
+            print "[La lumiere blanche envahi l'espace...]"
+
+
+else:
+    print "Vous marchez vers le bout du conduit."
+    print "Vous appercevez maintenant une piece ou vous pourriez descendre "
+    c2b=raw_input("Descendre [a], rebrousser chemin [b]")
+    if c2b=="a":
+       print "Vous atterissez dans la piece"
+       print "Elle contient toute sortes de placards vitres"
+       print "Vous choisissez une des portes de cette piece ronde et peu eclairee"
+       print "Vous examinez son contenu."
+       print
+       print "Vous remaqrquez qu'il s'agit d'une vaste collection"
+       print "d'arme experimentale."
+       print "[Vous prenez une arme, (au cas ou)]"
+       print "Vous sortez par la porte principale"
+       raw_input("Apuyez sur [entrer]")
+       print "Vous arrivez alors au couloir"
+       print "Celui-ci contient deux portes."
+       print "la '501A' et la '502A'"
+       print "Laquelle Choisir ??"
+       port2=raw_input("501A [a], 502A [b]")
+       if port2=="a":
+           print "La salle est tres grande."
+           print "Vous entrez en vitesse"
+           print "Les scientifiques affoles se dirigent vers vous."
+           print "Ils n'ont  pas l'aire  d'etre tres sains d'esprit."
+           print "Vous prenez votre fusil au plasma et vous les desintegrez"
+           print "Vous ne voulez pas etre detecte alors vous sortez..."
+           print "Vous vous presentez alors devant l'autre salle."
+           print "La porte coulissante s'ouvre automatiquement"
+           print "[SON ELECTRONIQUE]"
+           print "Il s'agit d'une salle pleine d'equipement informatique"
+           print "Plus precisement, une salle des serveurs"
+           print
+           print "[VOUS TROUVEZ UNE CARTE MAGNETIQUE]"
+           print
+           print "Dans l'espoir de sortir de cet endroit tres etrange, vous vous dirigez"
+           print "d'un pas presse vers la porte du fond."
+       else:
+           print "Vous vous presentez alors devant l'autre salle."
+           print "La porte coulissante s'ouvre automatiquement"
+           print "[SON ELECTRONIQUE]"
+           print "Il s'agit d'une salle pleine d'equipement informatique"
+           print "Plus precisement, une salle des serveurs"
+           print
+           print "[VOUS TROUVEZ UNE CARTE MAGNETIQUE]"
+           print
+           print "Dans l'espoir de sortir de cet endroit tres etrange, vous vous dirigez"
+           print "d'un pas presse vers la porte du fond."
+
+       print "Vous atteignez un nouveau corridor, etrangement, c'est un"
+       print "cul de sac... une seule porte coulissante..."
+       print "Vous vous approchez de cette porte et tentez de l'ouvrir"
+       print "Vous approchez la carte du lecteur..."
+       print
+       print "[ERREUR 351 - LECTURE IMPOSSIBLE]"
+       print
+       card3=raw_input("Essayer une autre fois [a], retourner dans la salle des serveurs [b]")
+       if card3=="a":
+           print "Vous re-tentez..."
+           print "La porte s'ouvre en un bruit sourd."
+           print "Vous courrez vers l'exterieur"
+           print "[La lumiere blanche envahi l'espace...]"
+           print
+           print "[ACCES AUTHORIZE]"
+           print "Vous courrez vers l'exterieur"
+           print "[La lumiere blanche envahi l'espace...]"
+
+       else:
+           print "De retour dans la salle des serveurs..."
+           print "Vous remarquez une console que vous n'aviez pas vue anterieurement"
+           print "Vous tentez d'y acceder"
+           raw_input("Entrez votre mot de passe: ")
+           print "[ACCES REFUSE]"
+           print
+           print "Une alarme retentis soudainement:"
+           print "[ALERTE 5 - INTRUSION AU systeme]"
+           print
+           print "Vous re-sortez, en courant, dans le corridor"
+           print "Vous re-tentez d'ouvrir la porte"
+           print "Elle s'ouvre en un bruit sourd."
+           print
+           print "[ACCES AUTHORIZE]"
+           print
+           print "Vous courrez vers l'exterieur"
+           print "[La lumiere blanche envahi l'espace...]"
+    else:
+        print "Vous rebroussez chemin"
+        print "Apres un peu de marche, vous sautez dans la seconde piece"
+        print "Vous atterissez. Elle est remplie d'etrange etagere"
+        print "Elles sont remplies de nombreuses eprouvettes, bechers et bocaux"
+        print "Vous appercevez qu'il y a, dans quelques bocaux, des cerveaux flottants"
+        print "En panique, vous vous dirigez vers l'autre extremite de la piece"
+        print "Vous tombez alors sur un sarrau et des lunettes "
+        print "[Vous prenez  (et mettez) ces objets]"
+        print "Vous sortez par la porte"
+        raw_input("Apuyez sur [entrer]")
+        print "Vous arrivez alors au couloir"
+        print "Celui-ci contient deux portes."
+        print "la '501A' et la '502A'"
+        print "Laquelle Choisir ??"
+        port3=raw_input("501A [a], 502A [b]")
+        if port3=="a":
+            print "La salle est tres grande."
+            print "Vous entrez en toute discretion grace a votre fabuleux deguisement"
+            print "Vous explorez tranquillement sous  le regard interoge des scientifiques."
+            print "Toutefois, ceux ci ne semble pas trop comprendre la situation"
+            print "Ils n'ont  pas l'aire  d'etre tres sains d'esprit."
+            print "Vous remarquez qu'il n'y a rien de vraiment interessant alors vous sortez..."
+            print "Vous vous presentez alors devant l'autre salle."
+            print "La porte coulissante s'ouvre automatiquement"
+            print "[SON ELECTRONIQUE]"
+            print "Il s'agit d'une salle pleine d'equipement informatique"
+            print "Plus precisement, une salle des serveurs"
+            print
+            print "[VOUS TROUVEZ UNE CARTE MAGNETIQUE]"
+            print
+            print "Dans l'espoir de sortir de cet endroit tres etrange, vous vous dirigez"
+            print "d'un pas presse vers la porte du fond."
+
+        else:
+            print "Vous vous presentez devant la salle 502A."
+            print "La porte coulissante s'ouvre automatiquement"
+            print "[SON ELECTRONIQUE]"
+            print "Il s'agit d'une salle pleine d'equipement informatique"
+            print "Plus precisement, une salle des serveurs"
+            print
+            print "[VOUS TROUVEZ UNE CARTE MAGNETIQUE]"
+            print
+            print "Dans l'espoir de sortir de cet endroit tres etrange, vous vous dirigez"
+            print "d'un pas presse vers la porte du fond."
+        print "Vous atteignez un nouveau corridor, etrangement, c'est un"
+        print "cul de sac... une seule porte coulissante..."
+        print "Vous vous approchez de cette porte et tentez de l'ouvrir"
+        print "Vous approchez la carte du lecteur..."
+        print
+        print "[ERREUR 351 - LECTURE IMPOSSIBLE]"
+        print
+        card4=raw_input("Essayer une autre fois [a], retourner dans la salle des serveurs [b]")
+        if card4=="a":
+            print "La porte s'ouvre en un bruit sourd."
+            print "Vous courrez vers l'exterieur"
+            print "[La lumiere blanche envahi l'espace...]"
+            print
+            print "[ACCES AUTHORIZE]"
+            print
+            print "Vous courrez vers l'exterieur"
+            print "[La lumiere blanche envahi l'espace...]"
+
+        else:
+            print "De retour dans la salle des serveurs..."
+            print "Vous remarquez une console que vous n'aviez pas vue anterieurement"
+            print "Vous tentez d'y acceder"
+            raw_input("Entrez votre mot de passe: ")
+            print "[ACCES REFUSE]"
+            print
+            print "Une alarme retentis soudainement:"
+            print "[ALERTE 5 - INTRUSION AU systeme]"
+            print
+            print "Vous re-sortez, en courant, dans le corridor"
+            print "Vous re-tentez d'ouvrir la porte"
+            print "Elle s'ouvre en un bruit sourd."
+            print
+            print "[ACCES AUTHORIZE]"
+            print
+            print "Vous courrez vers l'exterieur"
+            print "[La lumiere blanche envahi l'espace...]"
