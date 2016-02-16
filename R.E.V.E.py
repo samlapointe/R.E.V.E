@@ -1,10 +1,12 @@
+# coding: utf-8
+
 #Credits
 print "______________________________________________________"
 print
 print "\033[1;0mCopyright 2016 - Tous Droits Reserves\033[1;m"
-print "Histoire creee par Olivier Brassard & Camille Brassard"
+print "Histoire créee par Olivier Brassard & Camille Brassard"
 print "Developpe par Olivier Brassard"
-import sys
+import sysc
 def clear():
    sys.stdout.write('\033[2J')
    sys.stdout.write('\033[H')
