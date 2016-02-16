@@ -3,9 +3,9 @@
 #Credits
 print "______________________________________________________"
 print
-print "\033[1;0mCopyright 2016 - Tous Droits Reserves\033[1;m"
-print "Histoire créee par Olivier Brassard & Camille Brassard"
-print "Developpe par Olivier Brassard"
+print "\033[1;0mCopyright 2016 - Tous Droits Réservés\033[1;m"
+print "Histoire créée par Olivier Brassard & Camille Brassard"
+print "Développée par Olivier Brassard"
 import sysc
 def clear():
    sys.stdout.write('\033[2J')
@@ -13,12 +13,12 @@ def clear():
    sys.stdout.flush()
 
 print
-raw_input("Appuyez sur [ENTRER] pour executer le script du jeu")
+raw_input("Appuyez sur [ENTRER] pour exécuter le script du jeu")
 clear()
 
 #warning
-print "*** POUR LE BON FONCTIONNEMENT DU JEU, VERIFIEZ QUE "
-print " VOTRE TOUCHE VER.MAJ EST DESACTIVE  ***"
+print "*** POUR LE BON FONCTIONNEMENT DU JEU, VÉRIFIEZ QUE "
+print " VOTRE TOUCHE VER.MAJ EST DÉSACTIVÉE  ***"
 print "-----------------------------------"
 import sys
 def clear():
@@ -26,7 +26,7 @@ def clear():
    sys.stdout.write('\033[H')
    sys.stdout.flush()
 
-raw_input("Appuyez sur [ENTRER] pour demmarer")
+raw_input("Appuyez sur [ENTRER] pour démarrer")
 clear()
 
 #INTRODUCTION
@@ -43,72 +43,72 @@ else:
    clear()
 
    print "------------------"
-   print "Je suis le Dr. Robet Wonderstone;"
-   print "Specialiste des phenomenes psychiques du suconscient."
+   print "Je suis le Dr. Robert Wonderstone;"
+   print "Spécialiste des phénomènes psychiques du subconscient."
    print
-   print "Ma specialite ? Les reves."
-   print "Les reves sonts intimement lies a la vie du reveur"
+   print "Ma spécialité ? Les rêves."
+   print "Les rêves sont intimement liés à la vie du rêveur"
    print
-   print "Pourtant, dans la majorite du temps, vous ne vous rappellez pas de vos reves."
-   print "Ils ne sont qu'un produit de notre imagination ..."
+   print "La plupart du temps, vous ne vous rappellez pas de vos rêves."
+   print "Ils ne sont que le fruit de votre imagination ..."
    rev=raw_input("N'est-ce pas ? (oui/non): ")
    clear()
    print "------------------- "
    print "Peu importe..."
-   print "J'ai decouvert que les reves, meme s'ils parraissent anodins,"
-   print "sont bien plus que des films qui jouent dans nos tetes."
+   print "J'ai découvert que les rêves, même s'ils paraissent anodins,"
+   print "sont bien plus que des films qui jouent dans nos têtes."
    print "..."
-   print "ILS SONT REELS !"
+   print "ILS SONT RÉELS !"
    print
-   print "Desole, je m'emporte.."
+   print "Désolé, je m'emporte.."
    print
-   print "En fait, j'ai developpe un systeme qui permet de revivre ses reves."
-   print "L'etude du cerveau a montre que beaucoup de personnes se souviennent"
-   print "de leurs reves si on les reveillent pendant le sommeil paradoxal. "
-   print "C'est a ce moment qu'il devient possible de les extraires"
+   print "En fait, j'ai développé un système qui permet de revivre ses rêves."
+   print "L'étude du cerveau a démontré que beaucoup de personnes se souviennent"
+   print "de leurs rêves si on les réveillent pendant le sommeil paradoxal. "
+   print "C'est à ce moment qu'il devient possible de les extraire"
    print
-   print "Cependant il y a une faille."
+   print "Cependant, il y a une faille."
    print
-   print "Le dernier sujet a eu une crise d'epillepsie au moment critique de l'extraction..."
-   print "J'ai voulu annuler le processus, mais il etait trop tard.."
-   print "Mort Cerebrale"
+   print "Lors de l'extraction, le dernier sujet a fait une crise d'épillepsie..."
+   print "J'ai voulu annuler le processus, mais il était trop tard..."
+   print "Mort cérébrale"
    raw_input("Appuyez sur [ENTRER]")
    clear()
-   print "Toutefois j'ai remarque un phenomene etrange."
-   print "Malgre le coma de type 5 de mon patient, le reve ne s'est pas arrete."
-   print "C'est comme si son esprit s'etait detache. "
-   print "Comme s'il etait toujours vivant, mais dans son reve "
+   print "Toutefois j'ai remarqué un phénomène étrange."
+   print "Malgré le coma de type 5 de mon patient, le rêve ne s'est pas arreté."
+   print "C'est comme si son esprit s'était détaché. "
+   print "Comme s'il était toujours vivant, mais dans son rêve "
    print
-   print "Apres etude, j'en suis venu a une theorie. Si on arrive a "
-   print "retourner dans le reve et a retrouver son esprit"
+   print "Après étude, j'en suis venu à une théorie. Si on arrive à "
+   print "retourner dans le rêve et à retrouver son esprit"
    print "... ou quelque chose du genre,"
    print "il sera probablement possible de le faire revenir.."
    print
-   print "J'ai alors modifie la machine pour pouvoir introduire"
-   print "un second sujet dans le reve en cours."
+   print "J'ai alors modifié la machine pour pouvoir introduire"
+   print "une seconde personne dans le rêve en cours."
 
 
 #start
 
-jouer=raw_input("Pour cela j'ai besoin de votre aide. [o/n]: ")
+jouer=raw_input("Pour cela, j'ai besoin de votre aide. [o/n]: ")
 if jouer=="o":
    clear()
-   print "Tres biens " + nom + " !"
-   print "Nous n'avons pas de temps a perdre."
-   print "Debutont..."
+   print "Très bien " + nom + " !"
+   print "Nous n'avons pas de temps à perdre."
+   print "Débutons..."
    True
 elif jouer=="n":
    clear()
-   print "Etes-vous certain ? :"
+   print "Êtes-vous certain ? :"
    quit=raw_input("[o/n] : ")
    if quit=="o":
-       print "Au revoirs, alors"
+       print "Au revoir, alors"
        import sys
-       sys.exit("\033[0;31m [PARTIE TERMINE]\033[1;m")
+       sys.exit("\033[0;31m [PARTIE TERMINÉE]\033[1;m")
    elif quit=="n":
        clear()
-       print "Nous n'avons pas de temps a perdre."
-       print "Debutont..."
+       print "Nous n'avons pas de temps à perdre."
+       print "Débutons..."
 
 
 #Debut
@@ -118,20 +118,20 @@ print ".............................."
 print "[Une heure plus tard]"
 print ".............................."
 print "Allonge toi ici " + nom
-print "Je t'injecte un somnifere.."
-print "Il fera effet dans quelques minutes"
+print "Je t'injecte un somnifère..."
+print "Les effets se feront ressentir dans quelques minutes"
 
-print "Tout a l'heure il sera possbile de comuniquer enssemble,"
-print "je te guiderai tous le long du periple."
+print "Tout a l'heure, il sera possible de communiquer ensemble,"
+print "je te guiderai tout le long du périple."
 print
-print "Ton subconcient sera en lien avec le systeme et avec le reve de mon ex-patient"
-print "Je te donnerai plus de detail lorsque tu aura atteint le sommeil paradoxal"
+print "Ton subconcient sera en lien avec le système et avec le rêve de mon ex-patient"
+print "Je te donnerai plus de détails lorsque tu auras atteint le sommeil paradoxal"
 print
-print "Ah et j'oubliais !"
-print "Dans un reve normal, si tu meurt tu te reveille, mais dans "
-print "celui d'un autre ce n'est p...."
+print "Ahh, j'oubliais !"
+print "Dans un rêve ordinaire où tu meurs, tu te réveille, mais dans "
+print "celui d'un autre ce n'est p... Zzzzh!"
 print
-print "(VOUS VOUS ETES ENDORMI)"
+print "(VOUS VOUS ÊTES ENDORMI)"
 print
 raw_input("Appuyez sur [ENTRER]")
 clear()
@@ -139,26 +139,26 @@ print
 print '\033[0;32m [CONSOLE R.E.V.E -  BETA 2.1.4 :]\033[1;m'
 print '\033[0;32m [EN ATTENTE DU SOMMEIL PARADOXAL...]\033[1;m'
 print '\033[0;32m [...]\033[1;m'
-print '\033[0;32m [TEMPS ECOULE : 270 MIN]\033[1;m'
-print '\033[0;32m [DEMARAGE DE LA SEQUENCE R.E.V.E]\033[1;m'
+print '\033[0;32m [TEMPS ÉCOULÉ : 270 MIN.]\033[1;m'
+print '\033[0;32m [DÉMARRAGE DE LA SÉQUENCE R.E.V.E]\033[1;m'
 print '\033[0;32m        ....\033[1;m'
 print '\033[0;32m       ......\033[1;m'
 print '\033[0;32m     ..........\033[1;m'
 print '\033[0;32m   ..............\033[1;m'
 print '\033[0;32m  ................\033[1;m'
 print '\033[0;32m ...................\033[1;m'
-print '\033[0;32m [Connexion etablie]\033[1;m'
+print '\033[0;32m [Connexion établie]\033[1;m'
 print
 raw_input("Appuyez sur [ENTRER]")
 clear()
 print
-print "(VOUS ETES DANS UNE PIECES BLANCHE, VOUS NE POUVEZ RIEN DISTINGUER"
-print "MEME PAS LES MUR OU LE PLANCHER. RIENQUE CETTE LUMIERE ENVOUTANTE)"
+print "(VOUS ÊTES DANS UNE PIÈCE BLANCHE, VOUS NE POUVEZ RIEN DISTINGUER"
+print "MÊME PAS LES MURS OU LE PLANCHER. RIEN QUE CETTE LUMIÈRE ENVOUTANTE)"
 print
-print "RE-Bonjour " + nom
-print "Tu est desormais dans le R.E.V.E"
-print "Tu n'a malheureusement pas la capacite physique de te deplacer."
-print "Dans le reve, tu pourra toutefois choisir quoi faire."
+print "Re-bonjour " + nom
+print "Tu est désormais dans le R.E.V.E"
+print "Tu n'a malheureusement pas la capacité physique de te déplacer."
+print "Dans le rêve, tu pourra toutefois choisir quoi faire."
 print
 raw_input("appuyez sur [ENTRER]")
 clear()
