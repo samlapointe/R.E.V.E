@@ -6,7 +6,7 @@ print
 print "\033[1;0mCopyright 2016 - Tous Droits Reserves\033[1;m"
 print "Histoire créee par Olivier Brassard & Camille Brassard"
 print "Developpe par Olivier Brassard"
-import sysc
+import sys
 def clear():
    sys.stdout.write('\033[2J')
    sys.stdout.write('\033[H')
@@ -788,15 +788,40 @@ raw_input("Appuyez sur [ENTRER]")
 clear()
 print "Vous continuez votre periple avec votre prix.."
 print "Heureusement (et etonnament), vous n'avez aucune blessure."
-#A retravailler:
-print "Toutefois, la riviere n'a plus de rives, mais biens des falaises sur les cote."
-print "C'est evident, il sera impossible de sortir par les cotes"
-#fin
+print
+#changement d'encodage
+print "Vous remarquez qu'il sera impossible de sortir par les côtés"
+print "Ceux-ci sont trop haut..."
 print "La nage est la seule issue possible..."
+print "Aumoins, le courrant vous aide !"
+print
+print "Vous apercevez au loins, devant,"
+print "un embranchement à la rivière..."
+print
+nag=raw_input("Aller à droite [a] à gauche [b]: ")
+if nag=="a":
+    print "Vous arrivez vers une baie"
+    print "Le courant qui vous portait se calme soudainement"
+    print "Un poisson s'approche de vous.."
+    print "Vous tenter de le toucher, mais il vous mord soudainement "
+    print
+    print "C'est un PYRANNAH !"
+    print "Vous nagez frénétiquement dans l'autre direction"
+    print "Mais il y en beaucoup d'autres.."
+    print "Comment vous en échapper ?"
+    print
+    pyr=raw_input("Tenter de sortir sur les cotés [a], Leurs lancer votre jambon [b]")
+    if pyr=="a":
+        #MORT
+    else :
+        #lancer le jambon
+else:
+    True
+#chemin vers la maison
 
 
 
 #in conception
-print '\033[0;32m SCRIPT TERMINE #succes \033[1;m'
+print '\033[0;32m SCRIPT TERMINÉ #succes \033[1;m'
 
 #print '\033[0;31m ROUGE\033[1;m'
