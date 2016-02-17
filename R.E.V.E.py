@@ -6,6 +6,7 @@ print
 print "\033[1;0mCopyright 2016 - Tous Droits Réservés\033[1;m"
 print "Histoire créée par Olivier Brassard & Camille Brassard"
 print "Développée par Olivier Brassard"
+print 'Corrections effectuées par Samuel Lapointe'
 import sys
 def clear():
    sys.stdout.write('\033[2J')
