@@ -818,7 +818,8 @@ if nag=="a":
     pyr=raw_input("Tenter de sortir sur les cotés [a], Leurs lancer votre jambon [b]")
     if pyr=="a":
         #MORT
-    else :True #to be delete
+    else :
+        
         #lancer le jambon
 else:
     True
