@@ -826,6 +826,9 @@ else:
     True
 #chemin vers la maison
 
+#reslolse tseo esrs
+
+
 
 
 #in conception
