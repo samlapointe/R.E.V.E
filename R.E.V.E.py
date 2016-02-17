@@ -3,15 +3,10 @@
 #Credits
 print "______________________________________________________"
 print
-print "\033[1;0mCopyright 2016 - Tous Droits Reserves\033[1;m"
-print "Histoire créee par Olivier Brassard & Camille Brassard"
-print "Developpe par Olivier Brassard"
-import sys
 print "\033[1;0mCopyright 2016 - Tous Droits Réservés\033[1;m"
 print "Histoire créée par Olivier Brassard & Camille Brassard"
 print "Développée par Olivier Brassard"
-import sysc
-
+import sys
 def clear():
    sys.stdout.write('\033[2J')
    sys.stdout.write('\033[H')
@@ -25,11 +20,6 @@ clear()
 print "*** POUR LE BON FONCTIONNEMENT DU JEU, VÉRIFIEZ QUE "
 print " VOTRE TOUCHE VER.MAJ EST DÉSACTIVÉE  ***"
 print "-----------------------------------"
-import sys
-def clear():
-   sys.stdout.write('\033[2J')
-   sys.stdout.write('\033[H')
-   sys.stdout.flush()
 
 raw_input("Appuyez sur [ENTRER] pour démarrer")
 clear()
