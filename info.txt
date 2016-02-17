@@ -1,0 +1,3 @@
+
+Pour consultation : http://henrysmac.org/blog/2010/10/22/adding-color-to-terminal-command-line-output.html
+(ColorCodes list)
