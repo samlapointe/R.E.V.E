@@ -3,17 +3,15 @@
 #Credits
 print "______________________________________________________"
 print
-<<<<<<< HEAD
 print "\033[1;0mCopyright 2016 - Tous Droits Reserves\033[1;m"
 print "Histoire créee par Olivier Brassard & Camille Brassard"
 print "Developpe par Olivier Brassard"
 import sys
-=======
 print "\033[1;0mCopyright 2016 - Tous Droits Réservés\033[1;m"
 print "Histoire créée par Olivier Brassard & Camille Brassard"
 print "Développée par Olivier Brassard"
 import sysc
->>>>>>> 387921b80a081e9d0dc205ec79c41e31e8f50453
+
 def clear():
    sys.stdout.write('\033[2J')
    sys.stdout.write('\033[H')
@@ -820,15 +818,11 @@ if nag=="a":
     pyr=raw_input("Tenter de sortir sur les cotés [a], Leurs lancer votre jambon [b]")
     if pyr=="a":
         #MORT
-    else :
+    else :True #to be delete
         #lancer le jambon
 else:
     True
 #chemin vers la maison
-
-#reslolse tseo esrs
-
-
 
 
 #in conception
