@@ -785,6 +785,8 @@ clear()
 print "Vous continuez votre periple avec votre prix.."
 print "Heureusement (et etonnament), vous n'avez aucune blessure."
 print
+raw_input("Appuyez sur [ENTRER]")
+clear()
 #changement d'encodage
 print "Vous remarquez qu'il sera impossible de sortir par les côtés"
 print "Ceux-ci sont trop haut..."
@@ -796,6 +798,7 @@ print "un embranchement à la rivière..."
 print
 nag=raw_input("Aller à droite [a] à gauche [b]: ")
 if nag=="a":
+    clear()
     print "Vous arrivez vers une baie"
     print "Le courant qui vous portait se calme soudainement"
     print "Un poisson s'approche de vous.."
@@ -808,11 +811,12 @@ if nag=="a":
     print
     pyr=raw_input("Tenter de sortir sur les cotés [a], Leurs lancer votre jambon [b]")
     if pyr=="a":
+        clear()
         print "Vous tentez de grimper sur les parrois, mais la terre mouillée"
         print "s'éffrite sous vos doigt."
         print
         print "Vous réésayez tout de même de grimper, mais c'est un échec"
-        print "et vous mouvement brusque ne font qu'attirer plus de PIRANAH"
+        print "et vous mouvement brusque ne font qu'attirer plus de PIRANAHS"
         print "...Vous lachez prise"
         print "[...]"
         print '\033[0;31m [VOUS ETES MORT]\033[1;m'
@@ -820,9 +824,10 @@ if nag=="a":
         sys.exit("\033[0;31m [PARTIE TERMINE]\033[1;m")
 
     else :
+        clear()
         print "Vous utilisez ingénieusement votre jambon !"
-        print "Vous le lancez d'une force surprenante de l'autre coté de la baie"
-        print "Les PIRANAH s'en vont alors immédiatement !"
+        print "Vous le lancez d'une force surprenante de l'autre côté de la baie"
+        print "Les PIRANAHS s'en vont alors immédiatement !"
         print "Vous faites une petite danse de satisfaction"
         raw_input("Appuyez sur [ENTRER]")
         clear()
@@ -831,9 +836,73 @@ else:
 
 print "Après une dizaine de minute de nage, vous appercevez une plage. "
 print "Vous redoublez d'ardeur et arrivez finalement sur la terre ferme !"
+print
+print "Au loin, perdue dans la forêt, vous appercevez une petite maison."
+raw_input("Appuyez sur [ENTRER]")
+clear()
+
+print "Le bâtiment est très petit et déllabré."
+print "La majorité des planches qui le constitue est moisie et plusieurs fenêtres sont brisées"
+print "Vous décidez tout de même de pénétrer à l'inerieur de cette sombre demeure"
+raw_input("Appuyez sur [ENTRER]")
+clear()
+
+#garre
+print "Sans pouvoir l'expliquer, vous vous retrouver vraisemblablement dans"
+print "un vaste loby bondé de monde."
+print
+print "Vous entendez soudainement :"
+print "[Le train entre en garre]"
+print "Fatigué de votre périple et affamé, vous décidez de vous reposer sur un banc."
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+
+print "Vous observez les environs "
+print "[...]"
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+
+print "Une billetterie..."
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+
+print "Beaucoup beaucoup beaucoup de monde..."
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
 
 
-#in conception
-print '\033[0;32m SCRIPT TERMINÉ #succes \033[1;m'
+print "Pas de restaurent..."
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+
+print "À cause de l'air déplacée par un nouveau train, "
+print "vous apercevez un bout de papier qui balote au vent sous"
+print "la pate du banc devant vous."
+print
+print "Vous vous approchez et vous découvrez qu'il s'agit en fait"
+print "d'un billet de 20 dollars"
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+
+print "Vous vous dirigez donc vers la billetterie."
+print "Il est possible d'acheter un billet pour 15 dollars."
+print
+print "C'est donc ce que vous faites"
+print "et vous montez dans ce train qui va dieux sais où..."
+print
+print "Il vous reste ainsi 5$"
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+
+
+#conception
+print '\033[0;32m Le jeu est toujours en conception, revenez bientôt ! \033[1;m'
 
 #print '\033[0;31m ROUGE\033[1;m'
