@@ -26,3 +26,4 @@ Entrer cette commande :
   c:\python23\python [chemin d'acces du fichier .py téléchargé]
 
 Puis appuyer sur entrer
+
