@@ -799,22 +799,38 @@ if nag=="a":
     print "Vous arrivez vers une baie"
     print "Le courant qui vous portait se calme soudainement"
     print "Un poisson s'approche de vous.."
-    print "Vous tenter de le toucher, mais il vous mord soudainement "
+    print "Vous tenter de le toucher, mais il vous mord soudainement !"
     print
-    print "C'est un PYRANNAH !"
+    print "C'est un PIRANAH !"
     print "Vous nagez frénétiquement dans l'autre direction"
     print "Mais il y en beaucoup d'autres.."
-    print "Comment vous en échapper ?"
+    print "Comment vous échapper ?"
     print
     pyr=raw_input("Tenter de sortir sur les cotés [a], Leurs lancer votre jambon [b]")
     if pyr=="a":
-        #MORT
+        print "Vous tentez de grimper sur les parrois, mais la terre mouillée"
+        print "s'éffrite sous vos doigt."
+        print
+        print "Vous réésayez tout de même de grimper, mais c'est un échec"
+        print "et vous mouvement brusque ne font qu'attirer plus de PIRANAH"
+        print "...Vous lachez prise"
+        print "[...]"
+        print '\033[0;31m [VOUS ETES MORT]\033[1;m'
+        import sys
+        sys.exit("\033[0;31m [PARTIE TERMINE]\033[1;m")
+
     else :
-        
-        #lancer le jambon
+        print "Vous utilisez ingénieusement votre jambon !"
+        print "Vous le lancez d'une force surprenante de l'autre coté de la baie"
+        print "Les PIRANAH s'en vont alors immédiatement !"
+        print "Vous faites une petite danse de satisfaction"
+        raw_input("Appuyez sur [ENTRER]")
+        clear()
 else:
     True
-#chemin vers la maison
+
+print "Après une dizaine de minute de nage, vous appercevez une plage. "
+print "Vous redoublez d'ardeur et arrivez finalement sur la terre ferme !"
 
 
 #in conception
