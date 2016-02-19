@@ -901,6 +901,36 @@ print
 raw_input("Appuyez sur [ENTRER]")
 clear()
 
+print "Assis sur une banquette, vous regardez à l'exterieur"
+print "Le paysage défile devant vos yeux..."
+print
+print "C’est une magnifique vue vers une vallée entourées de montagne. "
+print "On peut apercevoir de superbes rayons de soleil se coucher sur la vallée.
+print "Vous fermez les yeux..."
+print "et sombrez dans un profond sommeil."
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print "Vous vous réveillez en sursaut."
+print "On annonce l'arrivée du train à un  arrêt."
+print
+print "Vous n'avez cependant aucune idée du temps que vous avez dormis."
+print "Il s'agit d'une grande métropole..."
+print "Vous pouvez apercevoir de très grands buildings et une circultaion très dense."
+print "Les portes s'ouvrent "
+print "Plusieurs personnes décendent du train."
+trin=raw_input("Voulez vous faire de même ? Oui[a] Non, rester dans le train[b]: ")
+if trin=="b":
+    #description de leur mort (déraillement)
+    print "[...]"
+    print '\033[0;31m [VOUS ETES MORT]\033[1;m'
+    import sys
+    sys.exit("\033[0;31m [PARTIE TERMINE]\033[1;m")
+
+else :
+    True
+
+
 
 #conception
 print '\033[0;32m Le jeu est toujours en conception, revenez bientôt ! \033[1;m'
