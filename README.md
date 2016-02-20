@@ -17,13 +17,6 @@ Entrer cette commande :
 Puis appuyer sur entrer
 
 =
-Pour executer sous windows:
 
-Ouvrir le "command prompt"
-
-Entrer cette commande :
-
-  c:\python23\python [chemin d'acces du fichier .py téléchargé]
-
-Puis appuyer sur entrer
-
+DÉTAILS À VENIR POUR WINDOWS ÉVENTUELLEMENT.
+[POUR L'INSTANT, UTILISEZ L'OUTILS EN LIGNE]
