@@ -122,6 +122,10 @@ print "je te guiderai tout le long du périple."
 print
 print "Ton subconcient sera en lien avec le système et avec le rêve de mon ex-patient"
 print "Je te donnerai plus de détails lorsque tu auras atteint le sommeil paradoxal"
+print "TOUTEFOIS JE DOIS T'AVERTIR ..."
+print "Tu ne dois JAMAIS avoir de contact physique avec lui, sinon"
+print "cela créera des interférances entre ton subconscient et le sien."
+print "Ça pourrait te TUER !!!"
 print
 print "Ahh, j'oubliais !"
 print "Dans un rêve ordinaire où tu meurs, tu te réveille, mais dans "
@@ -907,7 +911,7 @@ print "Assis sur une banquette, vous regardez à l'exterieur"
 print "Le paysage défile devant vos yeux..."
 print
 print "C’est une magnifique vue vers une vallée entourées de montagne. "
-print "On peut apercevoir de superbes rayons de soleil se coucher sur la vallée.
+print "On peut apercevoir de superbes rayons de soleil se coucher sur la vallée."
 print "Vous fermez les yeux..."
 print "et sombrez dans un profond sommeil."
 print
