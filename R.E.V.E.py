@@ -770,7 +770,7 @@ print "Cependant, vous avez l'imppression que le courant s'intensifie."
 print "Vous vous levez debout..."
 print
 print "En plissant les yeux, vous avez l'impression que la "
-print "iviere se termine au loin. Malheureusement vous n'avez aucune paguaie"
+print "rivière se termine au loin. Malheureusement vous n'avez aucune paguaie"
 print "et, comme pour confirmer vos pensees, le son de l'eau qui coule devient"
 print "de plus en plus fort."
 print
