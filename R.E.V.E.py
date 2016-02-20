@@ -743,6 +743,7 @@ if fb=="a":
         clear()
         print "..."
         print '\033[0;31m [VOUS ETES MORT]\033[1;m'
+        print "\033[0;31m [L'OURS À TOUTEFOIS OBTENU UN somptueux REPAS.] \033[1;m"
         import sys
         sys.exit("\033[0;31m [PARTIE TERMINE]\033[1;m")
     else:
@@ -819,7 +820,8 @@ if nag=="a":
         print "et vous mouvement brusque ne font qu'attirer plus de PIRANAHS"
         print "...Vous lachez prise"
         print "[...]"
-        print '\033[0;31m [VOUS ETES MORT]\033[1;m'
+        print '\033[0;31m [VOUS ÊTES MORT.]\033[1;m'
+        print '\033[0;31m [LES PIRANNAH ON TOUTEFOIS EU UN somptueux REPAS.]\033[1;m'
         import sys
         sys.exit("\033[0;31m [PARTIE TERMINE]\033[1;m")
 
@@ -875,7 +877,7 @@ raw_input("Appuyez sur [ENTRER]")
 clear()
 
 
-print "Pas de restaurent..."
+print "Pas de restaurant..."
 print
 raw_input("Appuyez sur [ENTRER]")
 clear()
@@ -912,18 +914,56 @@ print
 raw_input("Appuyez sur [ENTRER]")
 clear()
 print "Vous vous réveillez en sursaut."
-print "On annonce l'arrivée du train à un  arrêt."
+print "On annonce l'arrivée du train à un arrêt."
 print
 print "Vous n'avez cependant aucune idée du temps que vous avez dormis."
 print "Il s'agit d'une grande métropole..."
 print "Vous pouvez apercevoir de très grands buildings et une circultaion très dense."
 print "Les portes s'ouvrent "
 print "Plusieurs personnes décendent du train."
-trin=raw_input("Voulez vous faire de même ? Oui[a] Non, rester dans le train[b]: ")
-if trin=="b":
-    #description de leur mort (déraillement)
+trn=raw_input("Voulez vous faire de même ? Oui[a] Non, rester dans le train[b]: ")
+if trn=="b":
+    print "Le train repart."
+    print "La ville s'éloigne, les buildings rapetissent petit à petit"
+    print 'alors que vous vous dirigez vers les montagnes'
+    print
+    raw_input("Appuyez sur [ENTRER]")
+    clear()
+    print "Vous décidez d'explorer le train."
+    print "Depuis votre placce à l'avant, vous vous dirigez vers"
+    print "le wagon restaurant."
+    print "Le plan affiché sur les murs indique que celui-ci"
+    print "ce situe à l'arrière du train."
+    print "Vous vous y rendez et profitez de la vue vers la vallée."
+    print
+    raw_input("Appuyez sur [ENTRER]")
+    clear()
+    print "Vous vous assoyez à une table vide. "
+    print "En fait, toutes les tables le sont."
+    print "Vous remarquez qu'il n'y a personne abord du wagon."
+    print
+    raw_input("Appuyez sur [ENTRER]")
+    clear()
+    print
+    print "Vous vous relevez pour quitter l'endroit quand, soudainement,"
+    print "train bascule vers la droite!"
+    print
+    print "Vous tombez avec celui-ci et vous vous écrasez contre le mur."
+    print "La vaissele fait de même dans un vacarme infernal."
+    print "Allors que vous essayez d'éviter les éclats de verre qui glissent vers vous, "
+    print "vous entendez un impitoyable détonation."
+    raw_input("Appuyez sur [ENTRER]")
+    clear()
+    print "Le wagon recommence à chuter !"
+    print "Vous vous retrouvez projeté vers ce qui était, il y a quelques secondes, le plafond."
+    print "Puis le sol."
+    print "Puis le plafond."
+    print "Puis le sol."
+    print "..."
+    print "Après une dizaine de tonnaux"
+    print "Le wagon se fracasse contre un parrois rocheuse de la montagne. "
     print "[...]"
-    print '\033[0;31m [VOUS ETES MORT]\033[1;m'
+    print '\033[0;31m [VOUS MOURREZ SUR LE COUPS...]\033[1;m'
     import sys
     sys.exit("\033[0;31m [PARTIE TERMINE]\033[1;m")
 
