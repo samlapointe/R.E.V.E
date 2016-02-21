@@ -157,14 +157,10 @@ print "MÊME PAS LES MURS OU LE PLANCHER. RIEN QUE CETTE LUMIÈRE ENVOUTANTE)"
 print
 print "Re-bonjour " + nom
 print "Tu est désormais dans le R.E.V.E"
-print "Tu n'a malheureusement pas la capacité physique de te déplacer."
-print "Dans le rêve, tu pourra toutefois choisir quoi faire."
 print
 raw_input("appuyez sur [ENTRER]")
 clear()
-print
-print "J'entrerai les donnes dans la console pour que tu puisse interagir."
-print "Je dois par contre t'avertir qu'il faudra etre tres vigillant lors"
+print "Je dois t'avertir qu'il faudra etre tres vigillant lors"
 print "de la saisie d'information..."
 print
 print "Mon systeme n'etant pas tres stable, une erreur pourrais etre fatale"
@@ -974,8 +970,19 @@ if trn=="b":
 else :
     True
 
-#une fois débarqué choix petit resto / sortir de la garre (economiser...)
-
+print "Une fois sorti du train, vous vous retrouvez dans une garre semblable"
+print "à celle où vous êtes monté."
+print
+print "Cependant, vous remarqez un petit café où vous pourriez enfin manger !"
+print "Voulez-vous y acheter quelque chose?"
+resto=raw_input("Oui[a], Non [b]")
+if resto=="a":
+    print "Vous achetez un petit sandwish pour 5$"
+    print "[Il ne vous reste plus d'argent.]"
+    print "Vous vous régalez."
+    #suite téléphonne mais pas d'argent (quête)
+else:
+    #Téléphone (assez d'argent)
 
 #conception
 print '\033[0;32m Le jeu est toujours en conception, revenez bientôt ! \033[1;m'
