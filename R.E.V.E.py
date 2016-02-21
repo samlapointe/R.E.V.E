@@ -747,7 +747,7 @@ if fb=="a":
         clear()
         print "..."
         print '\033[0;31m [VOUS ETES MORT]\033[1;m'
-        print "\033[0;31m [L'OURS À TOUTEFOIS OBTENU UN somptueux REPAS.] \033[1;m"
+        print "\033[0;31m [L'OURS À TOUTEFOIS OBTENU UN SOMPTUEUX REPAS.] \033[1;m"
         import sys
         sys.exit("\033[0;31m [PARTIE TERMINE]\033[1;m")
     else:
@@ -825,7 +825,7 @@ if nag=="a":
         print "...Vous lachez prise"
         print "[...]"
         print '\033[0;31m [VOUS ÊTES MORT.]\033[1;m'
-        print '\033[0;31m [LES PIRANNAH ON TOUTEFOIS EU UN somptueux REPAS.]\033[1;m'
+        print '\033[0;31m [LES PIRANNAH ON TOUTEFOIS EU UN SOMPTUEUX REPAS.]\033[1;m'
         import sys
         sys.exit("\033[0;31m [PARTIE TERMINE]\033[1;m")
 
