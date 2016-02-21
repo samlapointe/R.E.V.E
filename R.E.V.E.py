@@ -976,6 +976,7 @@ else :
 
 #une fois débarqué choix petit resto / sortir de la garre (economiser...)
 
+
 #conception
 print '\033[0;32m Le jeu est toujours en conception, revenez bientôt ! \033[1;m'
 
