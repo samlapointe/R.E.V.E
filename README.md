@@ -2,7 +2,7 @@
 Projet en cours
 ---------------
 Pour executer en ligne copier/coller le code sur :
-http://www.tutorialspoint.com/execute_python_online.php
+http://tiny.cc/Pythononline
 =
 Pour executer sur OS X :
 Télécharger le fichier R.E.V.E.py
