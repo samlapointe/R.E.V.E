@@ -982,6 +982,7 @@ if resto=="a":
     print "Vous vous régalez."
     #suite téléphonne mais pas d'argent (quête)
 else:
+   True
     #Téléphone (assez d'argent)
 
 #conception
