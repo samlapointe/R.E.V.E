@@ -2,8 +2,9 @@
 
 #Credits
 print "______________________________________________________"
-print
 print "\033[1;0mCopyright 2016 - Tous Droits Réservés\033[1;m"
+print "\033[1;0mEn jouant à ce jeu vous acceptez son contrat de licence.\033[1;m"
+print
 print "Histoire créée par Olivier Brassard & Camille Brassard"
 print "Développée par Olivier Brassard"
 print 'Corrections effectuées par Samuel Lapointe'
@@ -26,6 +27,15 @@ raw_input("Appuyez sur [ENTRER] pour démarrer")
 clear()
 
 #INTRODUCTION
+print
+print
+print
+print
+print
+print
+print
+print
+print "Astuce: Vous pouvez modifier la taille du texte avec [ cmd+ ] ou [ cmd- ] "
 import time
 print time.strftime('%d/%m/%y %H:%M',time.localtime())
 print
