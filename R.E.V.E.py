@@ -988,4 +988,5 @@ else:
 #conception
 print '\033[0;32m Le jeu est toujours en conception, revenez bientôt ! \033[1;m'
 
+#python -m py_compile script.py
 #print '\033[0;31m ROUGE\033[1;m'
