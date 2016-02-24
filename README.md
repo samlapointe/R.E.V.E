@@ -1,10 +1,12 @@
 # R.E.V.E
-[![Hex.pm](https://img.shields.io/badge/%3C%2F%3E%20Language-Python-blue.svg)]()
-[![Hex.pm](https://img.shields.io/badge/Progression%20du%20projet-65%25-yellow.svg)]()
 
-Projet en cours. 
+[![Hex.pm](https://img.shields.io/badge/%3C%2F%3E%20Language-Python%202.7-blue.svg)]()
+[![Hex.pm](https://img.shields.io/badge/Progression%20du%20projet-60%25-yellow.svg)]()
+
+
+Projet en cours.
 Pour executer en ligne copier/coller le code sur :
-http://tiny.cc/Pythononline 
+http://tiny.cc/Pythononline
 
 [MAC OS X]
 
