@@ -28,14 +28,6 @@ clear()
 
 #INTRODUCTION
 print
-print
-print
-print
-print
-print
-print
-print
-print "Astuce: Vous pouvez modifier la taille du texte avec [ cmd+ ] ou [ cmd- ] "
 import time
 print time.strftime('%d/%m/%y %H:%M',time.localtime())
 print
@@ -987,9 +979,10 @@ print "Cependant, vous remarqez un petit café où vous pourriez enfin manger !"
 print "Voulez-vous y acheter quelque chose?"
 resto=raw_input("Oui[a], Non [b]")
 if resto=="a":
-    print "Vous achetez un petit sandwish pour 5$"
+    print "Vous achetez un petit sandwich pour 5$"
     print "[Il ne vous reste plus d'argent.]"
     print "Vous vous régalez."
+
     #suite téléphonne mais pas d'argent (quête)
 else:
     True
@@ -998,5 +991,4 @@ else:
 #conception
 print '\033[0;32m Le jeu est toujours en conception, revenez bientôt ! \033[1;m'
 
-#python -m py_compile script.py
-#print '\033[0;31m ROUGE\033[1;m'
+# >>> $ python -m py_compile script.py
