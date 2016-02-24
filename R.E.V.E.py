@@ -7,6 +7,7 @@ print "\033[1;0mEn jouant à ce jeu vous acceptez son contrat de licence.\033[1;
 print
 print "Histoire créée par Olivier Brassard & Camille Brassard"
 print "Développée par Olivier Brassard"
+print "Script Éditrice : Savannah Legault"
 print 'Corrections effectuées par Samuel Lapointe'
 import sys
 def clear():
@@ -982,7 +983,37 @@ if resto=="a":
     print "Vous achetez un petit sandwich pour 5$"
     print "[Il ne vous reste plus d'argent.]"
     print "Vous vous régalez."
-
+    print "Après ce magnifique encas, vous partez explorer la cité"
+    print
+    raw_input("Appuyez sur [ENTRER]")
+    clear()
+    print "Vous marchez tranquillement dans la grande métropole..."
+    print "Les grattes-ciel vous dominent de leur hauteur."
+    print "Par cette chaude journée, vous êtes reconnaissant de l'ombre qu'ils vous procurent."
+    print "À cette heure de la journée, les gens affluent en grand nombre sur les trottoirs."
+    print "Vous vous faufilez habilement au travers de cette marrée humaine."
+    print
+    raw_input("Appuyez sur [ENTRER]")
+    clear()
+    print "Après quelques minutes de marche, vous avez l'impression que quelqu'un vous observe."
+    print "Vous regardez discrètement par-dessus votre épaule, mais vous ne voyez rien de suspect."
+    print "Vous continuez donc d'avancer, mais vous avez VRAIMENT l'impression que quelqu'un vous suit. "
+    print "Vos yeux sont soudainement attiré vers une magnifique vitrine colorée."
+    print "Au même moment, une main se pose brusquement sur votre épaule !"
+    print
+    raw_input("Appuyez sur [ENTRER]")
+    clear()
+    print "Vous vous retournez et constatez que le propriétaire de la main est un vieil"
+    print "homme au regard paranoïaque."
+    print
+    print "Il vous tend frénétiquement un vieux journal roulé sur lui même."
+    print "- Je sais pourquoi vous êtes ici !!!"
+    print "Vous le regardez d'un regard interrogateur."
+    print "- Vous devez vite vous rendre là-bas, vous dit-il tout en mettant le vieux papier en évidence. "
+    print "SINON, ILS VOUS AURONS !"
+    print "Vous lui demandez plus d'information, mais l'homme s'obstine à ne pas répondre."
+    print "Il vous lance le rouleau et quite en claudiguand. "
+    #prend journal et vois manuscrit (note)
     #suite téléphonne mais pas d'argent (quête)
 else:
     True
