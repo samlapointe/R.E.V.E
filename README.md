@@ -1,5 +1,7 @@
 # R.E.V.E
 [![Hex.pm](https://img.shields.io/badge/%3C%2F%3E%20Language-Python-blue.svg)]()
+[![Hex.pm](https://img.shields.io/badge/Progression%du%projet-60%25-yellow.svg)]()
+
 Projet en cours. 
 Pour executer en ligne copier/coller le code sur :
 http://tiny.cc/Pythononline 
@@ -8,4 +10,4 @@ http://tiny.cc/Pythononline
 
 Il est possible de modifier la taille du texte avec la combinaison de touches cmd+ (augmenter) ou cmd- (réduire)
 
-Un thème pour le terminal est aussi disponnible.
+Un thème pour le terminal est aussi disponnible.l
