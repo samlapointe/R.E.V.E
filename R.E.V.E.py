@@ -1013,6 +1013,19 @@ if resto=="a":
     print "SINON, ILS VOUS AURONS !"
     print "Vous lui demandez plus d'information, mais l'homme s'obstine à ne pas répondre."
     print "Il vous lance le rouleau et quite en claudiguand. "
+    print "Sans trop comprendre, vous ramassez le journal et vous le déroulez"
+    print "Sur la première page, vous découvrez une série de chifre écrit à la main"
+    print "La combinaison entourée de plusieurs traits de crayon ressemble à un numéro de téléphone.
+    print
+    print "{352-142-9977}"
+    print
+    print "Vous décidez ainsi de chercher une cabine téléphonique"
+    print "Après quelques minutes et une question à un chauffeur de Taxi,"
+    print "Vous en trouvez une!"
+    print "Toute rouge et vitrée; Digne de l'Angleterre."
+    print "Vous entrez."
+    print "Vous décrochez"
+    print "[<<ENFONCEZ BIEN VOTRE CARTE OU COMPOSEZ UN NUMERO>>]"
     #prend journal et vois manuscrit (note)
     #suite téléphonne mais pas d'argent (quête)
 else:
