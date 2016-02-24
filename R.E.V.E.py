@@ -158,82 +158,82 @@ print "(VOUS ÊTES DANS UNE PIÈCE BLANCHE, VOUS NE POUVEZ RIEN DISTINGUER"
 print "MÊME PAS LES MURS OU LE PLANCHER. RIEN QUE CETTE LUMIÈRE ENVOUTANTE)"
 print
 print "Re-bonjour " + nom
-print "Tu est désormais dans le R.E.V.E"
+print "Tu es désormais dans le R.E.V.E"
 print
-raw_input("appuyez sur [ENTRER]")
+raw_input("Appuyez sur [ENTRER]")
 clear()
-print "Je dois t'avertir qu'il faudra etre tres vigillant lors"
-print "de la saisie d'information..."
+print "Je dois t'avertir qu'il faudra être très vigilant lors"
+print "de la saisie d'informations..."
 print
-print "Mon systeme n'etant pas tres stable, une erreur pourrais etre fatale"
-print "Ainsi quand tu a le choix entre deux option, tu dois absolument choisir"
-print "l'une ou l'autre et ce de facon exacte"
+print "Mon systême n'étant pas très stable, une erreur pourrait être fatale"
+print "Ainsi quand tu as le choix entre deux options, tu dois absolument choisir"
+print "l'une ou l'autre, et ce, de façon exacte"
 print
-print "Testons tout de suite !"
-a=raw_input("Fais un [a] puis apuis sur [entrer]: ")
+print "Testons-le tout de suite !"
+a=raw_input("Fais un [a] et appuis sur [entrer]: ")
 print
 if a=="a":
-    print "Ca fonctionne"
+    print "Ça fonctionne"
 else:
-    print "Tu a fais une erreur, il faudra faire attention"
-    print "une fois dans le reve sa pourrait te tuer !"
+    print "Tu as fais une erreur, il faudra faire attention"
+    print "une fois dans le rêve, ça pourrait te tuer !"
 print
-print "Je crois que tu est pres on entre dans le reve ?"
-play=raw_input("Oui: apuyez sur [a] - Non: apuyez sur [b] : ")
+print "Je crois que tu es prêt, on entre dans le rêve ?"
+play=raw_input("Oui: Appuyez sur [a] - Non: Appuyez sur [b] : ")
 if play=="a":
     clear()
     print "C'est parti !"
 else:
     clear()
-    print "On a plus le temps de parler, de toutes facon tu ne peux plus reculer"
+    print "On a plus le temps de parler, de toutes façons, tu ne peux plus reculer"
     print "C'est parti !"
 
 # Debut de l'histoire
 # Labo
 raw_input("Appuyez sur [ENTRER]")
 clear()
-print "Vous etes dans une piece sombre."
+print "Vous êtes dans une pièce sombre."
 print "Vous ne voyez rien."
-print "Vos yeux s'accomodent tranquillement a la noirceur"
-print "Vous distinguez maintenant une grande porte et, au plafond, une bouche d'aeration."
-print "Pour sortir de cette piece, voulez vous vous :"
-c1=raw_input("deplacer vers la porte [a] ou tenter de vous hisser vers les conduits [b]?: ")
+print "Vos yeux s'accommodent tranquillement à la noirceur"
+print "Vous distinguez maintenant une grande porte et, au plafond, une bouche d'aération."
+print "Pour sortir de cette pièce, voulez-vous vous :"
+c1=raw_input("déplacer vers la porte [a] ou tenter de vous hisser vers les conduits [b]?: ")
 if c1=="a":
     clear()
-    print "Vous etes face a la porte"
-    print "Vous remarquez qu'elle est verouille"
-    print "Il est possible d'ouvrir la porte a l'aide d'un mot de passe"
-    c1a=raw_input("essayer un mot de passse [a] ou rebrousser chemin [b]")
+    print "Vous êtes face à la porte"
+    print "Vous remarquez qu'elle est verrouillée"
+    print "Il est possible d'ouvrir la porte à l'aide d'un mot de passe"
+    c1a=raw_input("Essayer un mot de passe [a] ou rebrousser chemin [b]")
     if c1a=="a":
         clear()
-        raw_input("Entrez le mot de passe (puis faites entrer) : ")
+        raw_input("Entrez le mot de passe, puis appuyer sur [ENTRER] : ")
         clear()
-        print '\033[0;31m [ACCES REFUSE]\033[1;m'
+        print '\033[0;31m [ACCÈS REFUSÉ]\033[1;m'
         raw_input("Appuyez sur [ENTRER]")
         clear()
     else: True
     print "Vous rebroussez chemin"
-    print "Vous prenez vorte elan et vous vous agrippez a la tuyauterie du plafond"
-    print "Vous poussez la grille et penetrez dans le conduit."
+    print "Vous prenez votre élan et vous vous agrippez à la tuyauterie du plafond"
+    print "Vous poussez la grille et pénétrez dans le conduit."
 else:
     clear()
-    print "Vous prenez vorte elan et vous vous agrippez a la tuyauterie du plafond"
-    print "Vous poussez la grille et penetrez dans le conduit."
-print "Vous rempez tranquillement ..."
-print "Vous arrivez finalement a une INTERSECTION !!!"
+    print "Vous prenez votre élan et vous vous agrippez à la tuyauterie du plafond"
+    print "Vous poussez la grille et pénétrez dans le conduit."
+print "Vous rampez tranquillement ..."
+print "Vous arrivez finalement à une INTERSECTION !!!"
 print "Dans quelle direction voulez-vous aller ?"
 c2=raw_input("Droite [a] ou Gauche [b]")
 if c2=="a":
     clear()
     print "Vous marchez vers le bout du conduit."
-    print "Vous appercevez maintenant une piece ou vous pourriez descedre "
+    print "Vous apercevez maintenant une pièce ou vous pourriez descendre "
     c2a=raw_input("Descendre [a], rebrousser chemin [b]")
     if c2a=="a":
         clear()
-        print "Vous atterissez dans la piece remplie d'etrange etagere"
-        print "Elles sont remplies de nombreuses eprouvettes, bechers et bocaux"
-        print "Vous appercevez qu'il y a, dans quelques bocaux, des cerveaux flottants"
-        print "En panique, vous vous dirigez vers l'autre extremite de la piece"
+        print "Vous atterrissez dans la pièce remplie d'étranges étagères"
+        print "Elles sont remplies de nombreuses éprouvettes, béchers et bocaux"
+        print "Vous apercevez qu'il y a, dans quelques bocaux, des cerveaux flottants"
+        print "En panique, vous vous dirigez vers l'autre extrémité de la pièce"
         print "Vous tombez alors sur un sarrau et des lunettes "
         print "[Vous prenez  (et mettez) ces objets]"
         print "Vous sortez par la porte"
