@@ -1,6 +1,6 @@
 # R.E.V.E
 Projet en cours
-[![Hex.pm](https://img.shields.io/badge/%3C%2F%3E%20Language-Python-blue.svg?style=flat-square)]()
+[![Hex.pm](https://img.shields.io/badge/Language-Python-blue.svg?style=flat-square)]()
 ---------------
 Pour executer en ligne copier/coller le code sur :
 http://tiny.cc/Pythononline 
