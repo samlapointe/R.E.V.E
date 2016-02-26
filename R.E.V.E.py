@@ -5,9 +5,9 @@ print "______________________________________________________"
 print "\033[1;0mCopyright 2016 - Tous Droits Réservés\033[1;m"
 print "\033[1;0mEn jouant à ce jeu vous acceptez son contrat de licence.\033[1;m"
 print
-print "Histoire créée par Olivier Brassard & Camille Brassard"
-print "Développée par Olivier Brassard"
-print "Script Éditrice : Savannah Legault"
+print "Histoire créée par Olivier Brassard, Camille Brassard & Sandrine Jodoin"
+print "Développé par Olivier Brassard"
+print "Modification et amélioration par Savannah Legault"
 print 'Corrections effectuées par Samuel Lapointe'
 import sys
 def clear():
@@ -1014,23 +1014,122 @@ if resto=="a":
     print "Vous lui demandez plus d'information, mais l'homme s'obstine à ne pas répondre."
     print "Il vous lance le rouleau et quite en claudiguand. "
     print "Sans trop comprendre, vous ramassez le journal et vous le déroulez"
-    print "Sur la première page, vous découvrez une série de chifre écrit à la main"
-    print "La combinaison entourée de plusieurs traits de crayon ressemble à un numéro de téléphone.
+    print "Sur la première page, vous découvrez une série de chifre écrit à la main"
+    print "La combinaison entourée de plusieurs traits de crayon ressemble à un numéro de téléphone."
     print
     print "{352-142-9977}"
     print
     print "Vous décidez ainsi de chercher une cabine téléphonique"
     print "Après quelques minutes et une question à un chauffeur de Taxi,"
     print "Vous en trouvez une!"
-    print "Toute rouge et vitrée; Digne de l'Angleterre."
+    print "Toute rouge et vitrée; digne de l'Angleterre."
     print "Vous entrez."
     print "Vous décrochez"
     print "[<<ENFONCEZ BIEN VOTRE CARTE OU COMPOSEZ UN NUMERO>>]"
-    #prend journal et vois manuscrit (note)
-    #suite téléphonne mais pas d'argent (quête)
+    print "Vous composez ..."
+    print "[LES FRAIS D'APPEL VERS CE NUMÉRO SONT DE 2$]"
+    print "OR! Vous n'avez plus un sou"
+    print "Vous resortez, bredouille, à la recherche d'une piece de 2$"
+    print "Vous pourriez;"
+    print "Scrutter le sol dans l'espoir de trouver par hazard quelques pièces [a]"
+    print "Demander un peu d'argent à un passant [b]"
+    mon=raw_input("Que voulez vous faire?")
+    if mon=="a":
+        print "Les yeux rivés au sol, vous recommencez votre marche"
+        print "Sous les bancs, près des trottoirs, dans les machines distributrice,"
+        print "dans un parc, dans plusieurs magasin..."
+        print "Il n'y a pas un endroit où vous n'avez pas cherché!"
+        print "Pourtant, vous n'avez rien trouvé... "
+        print "Vous abandonnez donc les recherches et vous résignez à votre plan A"
+        True
+
+    else :
+        True
+    print "Vous cherchez donc une généreuse âme pour vous tirer d'affaire."
+    print "Après un bref balayage visuel, vous appercevez un homme qui marche sur le trottoir"
+    print "et une femme assise sur une terasse. "
+    print
+    print "À qui voulez vous demander de l'argent?"
+    qst=raw_input("L'homme [a] ou la femme [b]")
+    if qst=="a":
+        print "Vous accélérez le pas, pour rejoindre le monsieur de l'autre côté de la rue"
+        print "Vous lui expliquez la situation et lui demandez 2$"
+        print "Il refuse."
+        print "Vous insitez en lui précisant que c'est très important"
+        print "Il vous insulte et vous dit d'aller voir ailleur."
+        print "Offencé, vous l'insultez à votre tour."
+        print "L'homme se fâche et vous pousse vers la rue."
+        print "À l'instant même une voiture tourne le coin."
+        print "Tout se passe très rapidement:"
+        print "Vous tombez par terre, les phares de la voiture vous aveuglent,"
+        print "Vous entendez les crissement des pneux, mais il est déja trop tard."
+        print "Le véhicule vous percute avant que vous n'ayez pu vous relever."
+        print "Vous vous retrouvez projeté sur le trottoir, votre tête se"
+        print "cogne sur la bordure. Vous perdez connaissance."
+        print
+        print '\033[0;31m [VOUS ÊTES MORT.]\033[1;m'
+        print '\033[0;31m [LES SECOURS NE SONT PAS ARRIVÉS À TEMPS]\033[1;m'
+        import sys
+        sys.exit("\033[0;31m [PARTIE TERMINE]\033[1;m")
+    else :
+        print "Vous accélérez le pas, pour rejoindre la jeune demoiselle"
+        print "Vous lui expliquez la situation et lui demandez gentiment 2$"
+        print "Vous lui faites votre plus beau sourire..."
+        print "Elle accepte !"
+        print '\033[0;32m [Vous avez maintenant 2$]\033[1;m'
+        print "Vous retournez, d'un pas vif, vers la cabine téléphonique"
+        print "Vous re-composez le numéro et acceptez les frais."
+        True
 else:
+    print "Vous continuez d'avoir faim, mais vous économisez 5$"
+    print "Vous explorez ainsi la cité."
+    raw_input("Appuyez sur [ENTRER]")
+    clear()
+    print "Vous marchez tranquillement dans la grande métropole..."
+    print "Les grattes-ciel vous dominent de leur hauteur."
+    print "Par cette chaude journée, vous êtes reconnaissant de l'ombre qu'ils vous procurent."
+    print "À cette heure de la journée, les gens affluent en grand nombre sur les trottoirs."
+    print "Vous vous faufilez habilement au travers de cette marrée humaine."
+    print
+    raw_input("Appuyez sur [ENTRER]")
+    clear()
+    print "Après quelques minutes de marche, vous avez l'impression que quelqu'un vous observe."
+    print "Vous regardez discrètement par-dessus votre épaule, mais vous ne voyez rien de suspect."
+    print "Vous continuez donc d'avancer, mais vous avez VRAIMENT l'impression que quelqu'un vous suit. "
+    print "Vos yeux sont soudainement attiré vers une magnifique vitrine colorée."
+    print "Au même moment, une main se pose brusquement sur votre épaule !"
+    print
+    raw_input("Appuyez sur [ENTRER]")
+    clear()
+    print "Vous vous retournez et constatez que le propriétaire de la main est un vieil"
+    print "homme au regard paranoïaque."
+    print
+    print "Il vous tend frénétiquement un vieux journal roulé sur lui même."
+    print "- Je sais pourquoi vous êtes ici !!!"
+    print "Vous le regardez d'un regard interrogateur."
+    print "- Vous devez vite vous rendre là-bas, vous dit-il tout en mettant le vieux papier en évidence. "
+    print "SINON, ILS VOUS AURONS !"
+    print "Vous lui demandez plus d'information, mais l'homme s'obstine à ne pas répondre."
+    print "Il vous lance le rouleau et quite en claudiguand. "
+    print "Sans trop comprendre, vous ramassez le journal et vous le déroulez"
+    print "Sur la première page, vous découvrez une série de chifre écrit à la main"
+    print "La combinaison entourée de plusieurs traits de crayon ressemble à un numéro de téléphone."
+    print
+    print "{352-142-9977}"
+    print
+    print "Vous décidez ainsi de chercher une cabine téléphonique"
+    print "Après quelques minutes et une question à un chauffeur de Taxi,"
+    print "Vous en trouvez une!"
+    print "Toute rouge et vitrée; digne de l'Angleterre."
+    print "Vous entrez."
+    print "Vous décrochez"
+    print "[<<ENFONCEZ BIEN VOTRE CARTE OU COMPOSEZ UN NUMERO>>]"
+    print "Vous composez ..."
+    print "[LES FRAIS D'APPEL VERS CE NUMÉRO SONT DE 2$]"
+    print "Vous confirmez."
     True
-    #Téléphone (assez d'argent)
+
+#APPEL
 
 #conception
 print '\033[0;32m Le jeu est toujours en conception, revenez bientôt ! \033[1;m'
