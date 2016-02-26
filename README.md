@@ -1,7 +1,7 @@
 # R.E.V.E
 
 [![Hex.pm](https://img.shields.io/badge/%3C%2F%3E%20Language-Python%202.7-blue.svg)]()
-[![Hex.pm](https://img.shields.io/badge/Progression%20du%20projet-60%25-yellow.svg)]()
+[![Hex.pm](https://img.shields.io/badge/Progression%20du%20projet-65%25-yellow.svg)]()
 
 
 Projet en cours.
@@ -12,4 +12,4 @@ http://tiny.cc/Pythononline
 
 Il est possible de modifier la taille du texte avec la combinaison de touches cmd+ (augmenter) ou cmd- (réduire)
 
-Un thème pour le terminal est aussi disponnible.l
+Un thème pour le terminal est aussi disponnible.
