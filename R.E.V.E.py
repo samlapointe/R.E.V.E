@@ -991,7 +991,7 @@ if resto=="a":
     print "Les grattes-ciel vous dominent de leur hauteur."
     print "Par cette chaude journée, vous êtes reconnaissant de l'ombre qu'ils vous procurent."
     print "À cette heure de la journée, les gens affluent en grand nombre sur les trottoirs."
-    print "Vous vous faufilez habilement au travers de cette marrée humaine."
+    print "Vous vous faufilez habilement à travers cette marrée humaine."
     print
     raw_input("Appuyez sur [ENTRER]")
     clear()
@@ -1089,7 +1089,7 @@ else:
     print "Les grattes-ciel vous dominent de leur hauteur."
     print "Par cette chaude journée, vous êtes reconnaissant de l'ombre qu'ils vous procurent."
     print "À cette heure de la journée, les gens affluent en grand nombre sur les trottoirs."
-    print "Vous vous faufilez habilement au travers de cette marrée humaine."
+    print "Vous vous faufilez habilement à travers cette marrée humaine."
     print
     raw_input("Appuyez sur [ENTRER]")
     clear()
@@ -1129,6 +1129,15 @@ else:
     print "Vous confirmez."
     True
 
+print "La tonnalité retentit quelques secondes et s'arrête."
+print "Une voix grave & mystèrieuse résonne dans le combiné."
+print "RENDEZ VOUS AU 1367 BOULEVARD BROOK"
+print "JE RÉPÈTE, 1367 BOULEVARD BROOK [Clack]"
+print
+print "Sans que vous n'ayez même eu le temps placer un mot,"
+print "la ligne fut coupée."
+print "[...]"
+print 
 #APPEL
 
 #conception
