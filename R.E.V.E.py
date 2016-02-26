@@ -1135,3 +1135,4 @@ else:
 print '\033[0;32m Le jeu est toujours en conception, revenez bientôt ! \033[1;m'
 
 # >>> $ python -m py_compile script.py
+# >>> 60% for printing accuracy
