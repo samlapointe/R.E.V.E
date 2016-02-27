@@ -926,6 +926,7 @@ print "Les portes s'ouvrent "
 print "Plusieurs personnes décendent du train."
 trn=raw_input("Voulez vous faire de même ? Oui[a] Non, rester dans le train[b]: ")
 if trn=="b":
+    clear()
     print "Le train repart."
     print "La ville s'éloigne, les buildings rapetissent petit à petit"
     print 'alors que vous vous dirigez vers les montagnes'
@@ -963,6 +964,8 @@ if trn=="b":
     print "Puis le plafond."
     print "Puis le sol."
     print "..."
+    print
+    raw_input("Appuyez sur [ENTRER]")
     print "Après une dizaine de tonnaux"
     print "Le wagon se fracasse contre un parrois rocheuse de la montagne. "
     print "[...]"
@@ -972,7 +975,7 @@ if trn=="b":
 
 else :
     True
-
+clear()
 print "Une fois sorti du train, vous vous retrouvez dans une garre semblable"
 print "à celle où vous êtes monté."
 print
@@ -980,6 +983,7 @@ print "Cependant, vous remarqez un petit café où vous pourriez enfin manger !"
 print "Voulez-vous y acheter quelque chose?"
 resto=raw_input("Oui[a], Non [b]")
 if resto=="a":
+    clear()
     print "Vous achetez un petit sandwich pour 5$"
     print "[Il ne vous reste plus d'argent.]"
     print "Vous vous régalez."
@@ -1011,8 +1015,12 @@ if resto=="a":
     print "Vous le regardez d'un regard interrogateur."
     print "- Vous devez vite vous rendre là-bas, vous dit-il tout en mettant le vieux papier en évidence. "
     print "SINON, ILS VOUS AURONS !"
+    print
     print "Vous lui demandez plus d'information, mais l'homme s'obstine à ne pas répondre."
     print "Il vous lance le rouleau et quite en claudiguand. "
+    print
+    raw_input("Appuyez sur [ENTRER]")
+    clear()
     print "Sans trop comprendre, vous ramassez le journal et vous le déroulez"
     print "Sur la première page, vous découvrez une série de chifre écrit à la main"
     print "La combinaison entourée de plusieurs traits de crayon ressemble à un numéro de téléphone."
@@ -1020,11 +1028,17 @@ if resto=="a":
     print "{352-142-9977}"
     print
     print "Vous décidez ainsi de chercher une cabine téléphonique"
+    print
+    raw_input("Appuyez sur [ENTRER]")
+    clear()
     print "Après quelques minutes et une question à un chauffeur de Taxi,"
     print "Vous en trouvez une!"
     print "Toute rouge et vitrée; digne de l'Angleterre."
     print "Vous entrez."
     print "Vous décrochez"
+    print
+    raw_input("Appuyez sur [ENTRER]")
+    clear()
     print "[<<ENFONCEZ BIEN VOTRE CARTE OU COMPOSEZ UN NUMERO>>]"
     print "Vous composez ..."
     print "[LES FRAIS D'APPEL VERS CE NUMÉRO SONT DE 2$]"
@@ -1035,16 +1049,20 @@ if resto=="a":
     print "Demander un peu d'argent à un passant [b]"
     mon=raw_input("Que voulez vous faire?")
     if mon=="a":
+        clear()
         print "Les yeux rivés au sol, vous recommencez votre marche"
         print "Sous les bancs, près des trottoirs, dans les machines distributrice,"
         print "dans un parc, dans plusieurs magasin..."
         print "Il n'y a pas un endroit où vous n'avez pas cherché!"
         print "Pourtant, vous n'avez rien trouvé... "
         print "Vous abandonnez donc les recherches et vous résignez à votre plan A"
+        print
+        raw_input("Appuyez sur [ENTRER]")
         True
 
     else :
         True
+    clear()
     print "Vous cherchez donc une généreuse âme pour vous tirer d'affaire."
     print "Après un bref balayage visuel, vous appercevez un homme qui marche sur le trottoir"
     print "et une femme assise sur une terasse. "
@@ -1052,17 +1070,24 @@ if resto=="a":
     print "À qui voulez vous demander de l'argent?"
     qst=raw_input("L'homme [a] ou la femme [b]")
     if qst=="a":
+        clear()
         print "Vous accélérez le pas, pour rejoindre le monsieur de l'autre côté de la rue"
         print "Vous lui expliquez la situation et lui demandez 2$"
         print "Il refuse."
         print "Vous insitez en lui précisant que c'est très important"
         print "Il vous insulte et vous dit d'aller voir ailleur."
         print "Offencé, vous l'insultez à votre tour."
+        print
+        raw_input("Appuyez sur [ENTRER]")
+        clear()
         print "L'homme se fâche et vous pousse vers la rue."
         print "À l'instant même une voiture tourne le coin."
         print "Tout se passe très rapidement:"
         print "Vous tombez par terre, les phares de la voiture vous aveuglent,"
         print "Vous entendez les crissement des pneux, mais il est déja trop tard."
+        print
+        raw_input("Appuyez sur [ENTRER]")
+        clear()
         print "Le véhicule vous percute avant que vous n'ayez pu vous relever."
         print "Vous vous retrouvez projeté sur le trottoir, votre tête se"
         print "cogne sur la bordure. Vous perdez connaissance."
@@ -1072,15 +1097,20 @@ if resto=="a":
         import sys
         sys.exit("\033[0;31m [PARTIE TERMINE]\033[1;m")
     else :
+        clear()
         print "Vous accélérez le pas, pour rejoindre la jeune demoiselle"
         print "Vous lui expliquez la situation et lui demandez gentiment 2$"
         print "Vous lui faites votre plus beau sourire..."
         print "Elle accepte !"
         print '\033[0;32m [Vous avez maintenant 2$]\033[1;m'
+        print
         print "Vous retournez, d'un pas vif, vers la cabine téléphonique"
         print "Vous re-composez le numéro et acceptez les frais."
+        print
+        raw_input("Appuyez sur [ENTRER]")
         True
 else:
+    clear()
     print "Vous continuez d'avoir faim, mais vous économisez 5$"
     print "Vous explorez ainsi la cité."
     raw_input("Appuyez sur [ENTRER]")
@@ -1109,42 +1139,57 @@ else:
     print "Vous le regardez d'un regard interrogateur."
     print "- Vous devez vite vous rendre là-bas, vous dit-il tout en mettant le vieux papier en évidence. "
     print "SINON, ILS VOUS AURONS !"
+    print
     print "Vous lui demandez plus d'information, mais l'homme s'obstine à ne pas répondre."
     print "Il vous lance le rouleau et quite en claudiguand. "
+    print
+    raw_input("Appuyez sur [ENTRER]")
+    clear()
     print "Sans trop comprendre, vous ramassez le journal et vous le déroulez"
     print "Sur la première page, vous découvrez une série de chifre écrit à la main"
     print "La combinaison entourée de plusieurs traits de crayon ressemble à un numéro de téléphone."
     print
     print "{352-142-9977}"
     print
+    raw_input("Appuyez sur [ENTRER]")
+    clear()
     print "Vous décidez ainsi de chercher une cabine téléphonique"
     print "Après quelques minutes et une question à un chauffeur de Taxi,"
     print "Vous en trouvez une!"
     print "Toute rouge et vitrée; digne de l'Angleterre."
     print "Vous entrez."
+    print
     print "Vous décrochez"
     print "[<<ENFONCEZ BIEN VOTRE CARTE OU COMPOSEZ UN NUMERO>>]"
     print "Vous composez ..."
     print "[LES FRAIS D'APPEL VERS CE NUMÉRO SONT DE 2$]"
     print "Vous confirmez."
+    print
+    raw_input("Appuyez sur [ENTRER]")
     True
 
+clear()
 print "La tonnalité retentit quelques secondes et s'arrête."
 print "Une voix grave & mystèrieuse résonne dans le combiné."
 print "RENDEZ VOUS AU 1367 BOULEVARD BROOK, vous n'avez plus beaucoup de temps"
 print "JE RÉPÈTE, 1367 BOULEVARD BROOK [Clack]"
-print
 print "Sans que vous n'ayez même eu le temps placer un mot,"
 print "la ligne fut coupée."
 print "[...]"
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
 print "Vous sortez de la cabine."
 print "Sans savoir dans quelle direction aller, vous vous remettez en route. "
-print "Vous tournez à droite à une instersection, puis a gauche.
+print "Vous tournez à droite à une instersection, puis a gauche."
 print "Vous apercevez un garage automobile "
 print "Vous entrez."
 print
 print "À l'acceuil vous demandez où se situe le boulevard Brook."
 print "On vous explique qu'il est à l'autre bout de la ville."
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
 print
 print "Vous ressortez du magasin."
 print "À votre surprise, il fait maintenant nuit.."
@@ -1160,15 +1205,18 @@ print "Vous regardez autours de vous, il n'y a personne. "
 print "Quel véhichule choisir ?"
 auto=raw_input("La voiture [a] ou la bicyclette [b]")
 if auto=="a":
+    clear()
     print "Tant qu'à voler, vous voler la Porsche."
     True
 else :
+    clear()
     print "Vous vous dirigez vers le vélo."
     print "Mais à votre surprise il est cadenacé à l'arbre."
     print "Toutefois, la chaine est très mince, elle pourrait"
     print "Probablement être brisée en tirant fort sur le vélo."
     velo=raw_input("Voulez vous essayer ? OUI[a] NON[b]")
     if velo=="a":
+        clear()
         print "Vous tirrez d'un coup sec, mais sans succès."
         print "Vous réésayez une seconde fois. Toujours pas."
         print "Alors que vous re-tentez une 3e fois, une voiture de police"
@@ -1177,13 +1225,20 @@ else :
         print "Vous voyez du coins de l'oeil les lumières rouge & bleue."
         print "Effrayé, vous vous mettez à courrir dans la direction opposée."
         print "La voiture de police vous pourchasse."
+        print
+        raw_input("Appuyez sur [ENTRER]")
+        clear()
         print "Vous regardez derrière vous tout en courrant droit devant, mais "
         print "vous vous enfargez dans un sac de poubelle oublié sur le trottoir."
         print "Vous tombez face première dans la rue."
+        print
         print "À l'instant même une voiture grise tourne le coin."
         print "Tout se passe très rapidement:"
         print "Les phares de la voiture vous aveuglent,"
         print "Vous entendez les crissement des pneux, mais il est déja trop tard."
+        print
+        raw_input("Appuyez sur [ENTRER]")
+        clear()
         print "Le véhicule vous percute avant que vous n'ayez pu vous relever."
         print "Vous vous retrouvez projeté sur le trottoir, votre tête se"
         print "cogne sur la bordure. Vous perdez connaissance."
@@ -1193,15 +1248,156 @@ else :
         print '\033[0;31m SUR PLACE, LES SECOURS MÉDICAUX NE SONT PAS\033[1;m'
         print '\033[0;31m ARRIVÉS À TEMPS.]\033[1;m'
         import sys
-        sys.exit("\033[0;31m [PARTIE TERMINE]\033[1;m")"
+        sys.exit("\033[0;31m [PARTIE TERMINE]\033[1;m")
     else:
+        clear()
         print "Vous retournez donc vers la Porsche."
         True
-
 print
-#VOL PORSCHE _ CONDUITE JUSQUAU BLVD
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print "Après un dernier coup d'oeil périphérique, vous vous asseyez "
+print "derrière le volant. Le moteur tourne déjà."
+print
+print "Vous ne perdez pas de temps. Vous vous apprêtez à quitter le stationnement."
+print "Au même momment, une voiture de police tourne le coin."
+print "Vous paniquez légèrement, mais la voiture continue son chemin sans s'arrêter."
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print "Vous quittez la cour en vitesse."
+print "Après quelques coins de rue, vous arrêtez en bordure de route."
+print "Vous respirez un bon coup pour évacuer votre stress."
+print "Vous analysez quelques secondes le tableau de bord."
+print
+print "Il y a une fonction GPS :"
+print "Vous entrez l'adresse."
+print "[DÉMARRAGE DE L'ITINÉRAIRE.]"
+print "Vous re-partez."
+print
+print "Votre automobile file à toute allure dans les rues de la métropole."
+print "Les rues sont désormais vides pour la pluspart."
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print "Alors que le GPS vous indique votre arrivée dans 2 minutes."
+print "Vous apercevez dans votre rétroviseur, des lumirères rouges & bleues"
+print "Vous enfoncez l'accelérateur."
+print "La sirènne se fait entendre, mais vous ne vous arrêtez toujours pas."
+print "D'autre véhicule se joignent la poursuite."
+print "Vous tournez brusquement à gauche, puis encore à gauche."
+print "Vous continuez 500 mètres tout droit."
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print "[VOTRE DESTINATION SE TROUVE SUR VOTRE DROITE]"
+print "Vous freinez brusquement devant un très grand immeuble éffilé."
+print "Sur la fassade est écrit '1367 BROOK'S BOULLEVARD'. "
+print
+print "Vous déscendez de votre véhicule alors que les policiers"
+print "freinent à leurs tour quelques mètre derrière."
+print "Sans réfléchir, vous courrez vers la grande porte vitrée de la tour."
+print "Les policier vous suivent, groupés, leur arme à la main."
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print "À l'instant où vous pénétrez dans le hall, les portes dorrées"
+print "d'un ascenceur s'ouvrent devant vous. Vous y entrez. "
+print "Au même momment les policiers pénêtrent dans le building."
+print "Ceux-ci tentent de vous atteindre."
+print "Ils courent dans votre direction..."
+print "Cependant, les portes de l'ascenceur se ferment"
+print "et vous montez..."
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print "L'assenceur s'arrête brusquement, vous perdez pied."
+print "Les portes restent fermées."
+print "Vous avez le choix :"
+print "> Patienter tranquillement (en contant le nombre de carreaux sur le tapis) [a]"
+print "> Vous acharner sur le tableau de commande (frappez dessus...) [b] "
+asc=raw_input("Que faire ? : ")
+if asc=="b":
+    clear()
+    print "Vous lacez de toutes vos forces un coup de poing sur le tableau de bord"
+    print "Un bouton s'enfonce, mais aucun changement."
+    print "Vous frappez un seconde fois, mais cette fois-ci avec votre pied."
+    print "Les lumière s'éteigne subitement."
+    print "Quelques étincelles vous éclairent toujours, mais ça ne dure pas."
+    print "Vous êtes plongé dans le noir total."
+    print "(EUH BRA-VO ! 'bruits d'aplaudissement sarcastiques')"
+    print "Vous criez  l'aide mais personne ne vous attend"
+    print "Vous vous asseyez en boule par terre"
+    print "Tous ce qu'il vous reste à faire c'est d'attendre."
+    print "[...]"
+    print
+    raw_input("Appuyez sur [ENTRER]")
+    clear()
+    print "[...]"
+    print
+    raw_input("Appuyez sur [ENTRER]")
+    clear()
+    print
+    print "[...]"
+    print
+    raw_input("Appuyez sur [ENTRER]")
+    clear()
+    print "Vous ne savez pas depuis combien de temps vous êtes là."
+    print "Vous commencez à trouver cela vraiment long."
+    print "D'autant plus que vous êtes fatigué."
+    print "Vous décidez d'éssayer de dormir en attendant les secours."
+    print "zzz"
+    print "[...]"
+    print
+    print
+    raw_input("Appuyez sur [ENTRER]")
+    clear()
+    print "[...]"
+    print
+    raw_input("Appuyez sur [ENTRER]")
+    clear()
+    print
+    print "[...]"
+    print
+    raw_input("Appuyez sur [ENTRER]")
+    clear()
+    print "Vous vous réveillez après plusieurs heures."
+    print "Vous êtes toujours dans l'ascenceur. Vous avez faim."
+    print "Votre dos vous fait mal et il fait chaud."
+    print "Vous criez encore mais vous ne recevez aucune réponse"
+    print "C'est peine perdue..."
+    print
+    print "[...]"
+    print '\033[0;31m [VOUS MOURREZ DE SOIF]\033[1;m'
+    print '\033[0;31m [MÊME APRÈS 3 JOURS, \033[1;m'
+    print "\033[0;31m PERSONNE N'EST VENU VOUS CHERCHER...]\033[1;m"
+    import sys
+    sys.exit("\033[0;31m [PARTIE TERMINE]\033[1;m")
+else :
+    True
+clear()
+print "Vous gardez votre sang froid et patientez gentiment dans l'ascenceur."
+print "Vous criez à l'aide de temps en temps, mais, aucune réponse."
+print "Après environ une heure (du moins selon vous)"
+print "Vous apercevez une petit panneau sur le plafond"
+print "Vous tentez de l'atteindre en grimpant sur la rampe"
+print "qui fait le tour de l'ascenceur."
+print
+print "C'est un échec..."
+print
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print "Vous commencez à perdre espoir quand vous entendez un bruit."
+print "Le plancher vibre légèrement, les boutons du panneau"
+print "de contrôle se rallument et l'ascenceur recommence son ascencion."
+print "C'EST UN MIRACLE !!"
+print "Vous montez quelques seconde, puis l'ascenceur s'arrête."
+print "Cette fois-ci par contre elle le fait de facon plus normale."
+print "[Ping!] [100e ÉTAGE]"
+print "Les portes coulissantes s'ouvrent doucement..."
 
-
+#
+print
 print '\033[0;32m Le jeu est toujours en conception, revenez bientôt ! \033[1;m'
 
 # >>> $ python -m py_compile script.py
