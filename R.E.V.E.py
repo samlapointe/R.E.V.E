@@ -1131,16 +1131,77 @@ else:
 
 print "La tonnalité retentit quelques secondes et s'arrête."
 print "Une voix grave & mystèrieuse résonne dans le combiné."
-print "RENDEZ VOUS AU 1367 BOULEVARD BROOK"
+print "RENDEZ VOUS AU 1367 BOULEVARD BROOK, vous n'avez plus beaucoup de temps"
 print "JE RÉPÈTE, 1367 BOULEVARD BROOK [Clack]"
 print
 print "Sans que vous n'ayez même eu le temps placer un mot,"
 print "la ligne fut coupée."
 print "[...]"
-print 
-#APPEL
+print "Vous sortez de la cabine."
+print "Sans savoir dans quelle direction aller, vous vous remettez en route. "
+print "Vous tournez à droite à une instersection, puis a gauche.
+print "Vous apercevez un garage automobile "
+print "Vous entrez."
+print
+print "À l'acceuil vous demandez où se situe le boulevard Brook."
+print "On vous explique qu'il est à l'autre bout de la ville."
+print
+print "Vous ressortez du magasin."
+print "À votre surprise, il fait maintenant nuit.."
+print "Les batiments sont illuminés de partouts."
+print "En face du garage, vous apercevez un vélo accoté sur un arbre et à votre gauche,"
+print "une rutillante Porsche blanche, les phares allumés, mais sans conducteur."
+print
+print "Sachant qu'il vous faux vous dépêcher, et qu'à pied, vous n'avez aucune chance"
+print "d'arriver à temps, vous prenez la décision (bien que très peu légale) "
+print "de commettre un vol."
+print
+print "Vous regardez autours de vous, il n'y a personne. "
+print "Quel véhichule choisir ?"
+auto=raw_input("La voiture [a] ou la bicyclette [b]")
+if auto=="a":
+    print "Tant qu'à voler, vous voler la Porsche."
+    True
+else :
+    print "Vous vous dirigez vers le vélo."
+    print "Mais à votre surprise il est cadenacé à l'arbre."
+    print "Toutefois, la chaine est très mince, elle pourrait"
+    print "Probablement être brisée en tirant fort sur le vélo."
+    velo=raw_input("Voulez vous essayer ? OUI[a] NON[b]")
+    if velo=="a":
+        print "Vous tirrez d'un coup sec, mais sans succès."
+        print "Vous réésayez une seconde fois. Toujours pas."
+        print "Alors que vous re-tentez une 3e fois, une voiture de police"
+        print "passe dans la rue."
+        print
+        print "Vous voyez du coins de l'oeil les lumières rouge & bleue."
+        print "Effrayé, vous vous mettez à courrir dans la direction opposée."
+        print "La voiture de police vous pourchasse."
+        print "Vous regardez derrière vous tout en courrant droit devant, mais "
+        print "vous vous enfargez dans un sac de poubelle oublié sur le trottoir."
+        print "Vous tombez face première dans la rue."
+        print "À l'instant même une voiture grise tourne le coin."
+        print "Tout se passe très rapidement:"
+        print "Les phares de la voiture vous aveuglent,"
+        print "Vous entendez les crissement des pneux, mais il est déja trop tard."
+        print "Le véhicule vous percute avant que vous n'ayez pu vous relever."
+        print "Vous vous retrouvez projeté sur le trottoir, votre tête se"
+        print "cogne sur la bordure. Vous perdez connaissance."
+        print
+        print '\033[0;31m [VOUS ÊTES MORT.]\033[1;m'
+        print '\033[0;31m [MALGRÉ LA VOITURE DE POLICE DÉJÀ PRÉSENTE\033[1;m'
+        print '\033[0;31m SUR PLACE, LES SECOURS MÉDICAUX NE SONT PAS\033[1;m'
+        print '\033[0;31m ARRIVÉS À TEMPS.]\033[1;m'
+        import sys
+        sys.exit("\033[0;31m [PARTIE TERMINE]\033[1;m")"
+    else:
+        print "Vous retournez donc vers la Porsche."
+        True
 
-#conception
+print
+#VOL PORSCHE _ CONDUITE JUSQUAU BLVD
+
+
 print '\033[0;32m Le jeu est toujours en conception, revenez bientôt ! \033[1;m'
 
 # >>> $ python -m py_compile script.py
