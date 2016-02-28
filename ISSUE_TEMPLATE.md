@@ -1,8 +1,9 @@
 Avant de soummettre un rapport d'erreur, assurez vous d'avoir bien lu les instruction (README)
 
-Pour suggérer une amélioration ou une correction veuillez remplir ce formulaire :
+Veuillez svp, donner un titre descriptif au rapport
 
-Veuillez donner un titre descriptif au rapport :
+Pour suggérer une amélioration ou une correction veuillez remplir ce formulaire :
+(Pour "cocher une case" veuillez mettre un X entre les corchet []
 
 Avec quel élément avez vous eu un problème ?:
 [] Le jeu
