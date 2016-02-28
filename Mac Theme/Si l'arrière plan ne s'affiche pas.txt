@@ -1,7 +1,0 @@
-Si l'image d'arrière plan du terminal ne fonctionne pas sur votre mac;
-
-1)Ouvrez le fichier .terminal (le texte devrais etre bleu),
-2)Ouvrez les préférences du terminal, (cmd + ,)
-3)Dans l'onglet "profils" choisissez le theme "R.E.V.E"
-4)Sélectionnez l'image dans la section "Arrière Plans"
-(L'image est dans le même dossier que le fichier theme)
