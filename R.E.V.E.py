@@ -227,7 +227,7 @@ c2=raw_input("Droite [a] ou Gauche [b]")
 if c2=="a":
     clear()
     print "Vous marchez vers le bout du conduit."
-    print "Vous apercevez maintenant une pièce ou vous pourriez descendre "
+    print "Vous apercevez maintenant une pièce où vous pourriez descendre "
     c2a=raw_input("Descendre [a], rebrousser chemin [b]")
     if c2a=="a":
         clear()
@@ -265,7 +265,7 @@ if c2=="a":
             print "[VOUS TROUVEZ UNE CARTE MAGNÉTIQUE]"
             print
             print "Dans l'espoir de sortir de cet endroit très étrange, vous vous dirigez"
-            print "d'un pas presse vers la porte du fond."
+            print "d'un pas pressé vers la porte du fond."
             raw_input("Appuyez sur [ENTRER]")
             clear()
         else:
@@ -279,7 +279,7 @@ if c2=="a":
             print "[VOUS TROUVEZ UNE CARTE MAGNÉTIQUE]"
             print
             print "Dans l'espoir de sortir de cet endroit, vous vous dirigez"
-            print "d'un pas presse vers la porte du fond."
+            print "d'un pas pressé vers la porte du fond."
             raw_input("Appuyez sur [ENTRER]")
             clear()
 
@@ -385,7 +385,7 @@ if c2=="a":
             print "[VOUS TROUVEZ UNE CARTE MAGNÉTIQUE]"
             print
             print "Dans l'espoir de sortir de cet endroit très étrange, vous vous dirigez"
-            print "d'un pas presse vers la porte du fond."
+            print "d'un pas pressé vers la porte du fond."
             raw_input("Appuyez sur [ENTRER]")
             clear()
 
@@ -400,7 +400,7 @@ if c2=="a":
             print "[VOUS TROUVEZ UNE CARTE MAGNÉTIQUE]"
             print
             print "Dans l'espoir de sortir de cet endroit très étrange, vous vous dirigez"
-            print "d'un pas presse vers la porte du fond."
+            print "d'un pas pressé vers la porte du fond."
             print
             raw_input("Appuyez sur [ENTRER]")
             clear()
@@ -469,7 +469,7 @@ if c2=="a":
 else:
     clear()
     print "Vous marchez vers le bout du conduit."
-    print "Vous apercevez maintenant une pièce ou vous pourriez descendre "
+    print "Vous apercevez maintenant une pièce où vous pourriez descendre "
     c2b=raw_input("Descendre [a], rebrousser chemin [b]")
     if c2b=="a":
        clear()
@@ -510,7 +510,7 @@ else:
            print "[VOUS TROUVEZ UNE CARTE MAGNÉTIQUE]"
            print
            print "Dans l'espoir de sortir de cet endroit très étrange, vous vous dirigez"
-           print "d'un pas presse vers la porte du fond."
+           print "d'un pas pressé vers la porte du fond."
            raw_input("Appuyez sur [ENTRER]")
            clear()
        else:
@@ -524,7 +524,7 @@ else:
            print "[VOUS TROUVEZ UNE CARTE MAGNÉTIQUE]"
            print
            print "Dans l'espoir de sortir de cet endroit très étrange, vous vous dirigez"
-           print "d'un pas presse vers la porte du fond."
+           print "d'un pas pressé vers la porte du fond."
            raw_input("Appuyez sur [ENTRER]")
            clear()
 
@@ -629,7 +629,7 @@ else:
             print "[VOUS TROUVEZ UNE CARTE MAGNÉTIQUE]"
             print
             print "Dans l'espoir de sortir de cet endroit très étrange, vous vous dirigez"
-            print "d'un pas presse vers la porte du fond."
+            print "d'un pas pressé vers la porte du fond."
             raw_input("Appuyez sur [ENTRER]")
             clear()
 
@@ -644,7 +644,7 @@ else:
             print "[VOUS TROUVEZ UNE CARTE MAGNÉTIQUE]"
             print
             print "Dans l'espoir de sortir de cet endroit très étrange, vous vous dirigez"
-            print "d'un pas presse vers la porte du fond."
+            print "d'un pas pressé vers la porte du fond."
             raw_input("Appuyez sur [ENTRER]")
             clear()
 
@@ -722,7 +722,7 @@ print "C'est ce qu'on appelle un 'bris de continuité'."
 print
 print "Tu as probablement déjà remarque que lorsqu'on "
 print "arrive a se souvenir d'un rêve, il en manque souvent des parties."
-print "En effet, c'est parce que les rêves sont a la base, décousue."
+print "En effet, c'est parce que les rêves sont à la base, décousus."
 print
 print "Il est normal, dans l'univers des rêves, de voyager dans le temps ou l'espace"
 print "comme cela sans aucune raison valable... c'est ce qu'on appelle le bris de continuité"
@@ -772,8 +772,8 @@ if fb=="a":
         print
         raw_input("Appuyez sur [ENTRER]")
         clear()
-        print "Vous tentez de grimper a un arbre, mais vous glissez et vous vous"
-        print "la cheville."
+        print "Vous tentez de grimper à un arbre, mais vous glissez et vous vous"
+        print "foulez la cheville."
         print
         print "L'ours affamé s'approche de vous avec appétit.."
         print "[SLURP !!] En se léchant les babines..."
@@ -784,7 +784,7 @@ if fb=="a":
         print '\033[0;31m [VOUS ÊTES MORT]\033[1;m'
         print "\033[0;31m [L'OURS À TOUTEFOIS OBTENU UN SOMPTUEUX REPAS.] \033[1;m"
         import sys
-        sys.exit("\033[0;31m [PARTIE TERMINE]\033[1;m")
+        sys.exit("\033[0;31m [PARTIE TERMINÉE]\033[1;m")
     else:
         print "Vous retournez vers la rivière"
         raw_input("Appuyez sur [ENTRER]")
@@ -862,7 +862,7 @@ if nag=="a":
         print '\033[0;31m [VOUS ÊTES MORT.]\033[1;m'
         print '\033[0;31m [LES PIRANNAH ON TOUTEFOIS EU UN SOMPTUEUX REPAS.]\033[1;m'
         import sys
-        sys.exit("\033[0;31m [PARTIE TERMINE]\033[1;m")
+        sys.exit("\033[0;31m [PARTIE TERMINÉE]\033[1;m")
 
     else :
         clear()
@@ -1007,7 +1007,7 @@ if trn=="b":
     print "[...]"
     print '\033[0;31m [VOUS MOURREZ SUR LE COUP...]\033[1;m'
     import sys
-    sys.exit("\033[0;31m [PARTIE TERMINE]\033[1;m")
+    sys.exit("\033[0;31m [PARTIE TERMINÉE]\033[1;m")
 
 else :
     True
@@ -1131,7 +1131,7 @@ if resto=="a":
         print '\033[0;31m [VOUS ÊTES MORT.]\033[1;m'
         print '\033[0;31m [LES SECOURS NE SONT PAS ARRIVÉS À TEMPS]\033[1;m'
         import sys
-        sys.exit("\033[0;31m [PARTIE TERMINE]\033[1;m")
+        sys.exit("\033[0;31m [PARTIE TERMINÉE]\033[1;m")
     else :
         clear()
         print "Vous accélérez le pas, pour rejoindre la jeune demoiselle"
@@ -1284,7 +1284,7 @@ else :
         print '\033[0;31m SUR PLACE, LES SECOURS MÉDICAUX NE SONT PAS\033[1;m'
         print '\033[0;31m ARRIVÉS À TEMPS.]\033[1;m'
         import sys
-        sys.exit("\033[0;31m [PARTIE TERMINE]\033[1;m")
+        sys.exit("\033[0;31m [PARTIE TERMINÉE]\033[1;m")
     else:
         clear()
         print "Vous retournez donc vers la Porsche."
@@ -1407,7 +1407,7 @@ if asc=="b":
     print '\033[0;31m [MÊME APRÈS 3 JOURS, \033[1;m'
     print "\033[0;31m PERSONNE N'EST VENU VOUS CHERCHER...]\033[1;m"
     import sys
-    sys.exit("\033[0;31m [PARTIE TERMINE]\033[1;m")
+    sys.exit("\033[0;31m [PARTIE TERMINÉE]\033[1;m")
 else :
     True
 clear()
