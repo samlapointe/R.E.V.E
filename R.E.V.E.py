@@ -286,6 +286,15 @@ if c2=="a":
         print "Vous atteignez un nouveau corridor, etrangement, c'est un"
         print "cul de sac... une seule porte coulissante..."
         print "Vous vous approchez de cette porte et tentez de l'ouvrir"
+        print
+        print "Au même moment, un scientifique au regard vide sort de la salle des serveurs."
+        print "Il tente de vous attaquer par derrière, mais vous le poussez par terre."
+        print "En tombant il tente de se retenir à vous."
+        print "Ses ongles vous grafigne l'avant bras."
+        print "Vous ne saignez pas, mais la blessure est tout de même apparente."
+        print "Aussi étrangement qu'il est arrivé, l'homme (fou), repart en criant"
+        print
+        print 'Vous revenez à votre objectif : la porte'
         print "Vous approchez la carte du lecteur..."
         raw_input("Appuyez sur [ENTRER]")
         clear()
@@ -399,6 +408,15 @@ if c2=="a":
         print "Vous atteignez un nouveau corridor, etrangement, c'est un"
         print "cul de sac... une seule porte coulissante..."
         print "Vous vous approchez de cette porte et tentez de l'ouvrir"
+        print
+        print "Au même moment, un scientifique au regard vide sort de la salle des serveurs."
+        print "Il tente de vous attaquer par derrière, mais vous le poussez par terre."
+        print "En tombant il tente de se retenir à vous."
+        print "Ses ongles vous grafigne l'avant bras."
+        print "Vous ne saignez pas, mais la blessure est tout de même apparente."
+        print "Aussi étrangement qu'il est arrivé, l'homme (fou), repart en criant"
+        print
+        print 'Vous revenez à votre objectif : la porte'
         print "Vous approchez la carte du lecteur..."
         raw_input("Appuyez sur [ENTRER]")
         clear()
@@ -513,6 +531,15 @@ else:
        print "Vous atteignez un nouveau corridor, etrangement, c'est un"
        print "cul de sac... une seule porte coulissante..."
        print "Vous vous approchez de cette porte et tentez de l'ouvrir"
+       print
+       print "Au même moment, un scientifique au regard vide sort de la salle des serveurs."
+       print "Il tente de vous attaquer par derrière, mais vous le poussez par terre."
+       print "En tombant il tente de se retenir à vous."
+       print "Ses ongles vous grafigne l'avant bras."
+       print "Vous ne saignez pas, mais la blessure est tout de même apparente."
+       print "Aussi étrangement qu'il est arrivé, l'homme (fou), repart en criant"
+       print
+       print 'Vous revenez à votre objectif : la porte'
        print "Vous approchez la carte du lecteur..."
        print
        raw_input("Appuyez sur [ENTRER]")
@@ -624,6 +651,15 @@ else:
         print "Vous atteignez un nouveau corridor, etrangement, c'est un"
         print "cul de sac... une seule porte coulissante..."
         print "Vous vous approchez de cette porte et tentez de l'ouvrir"
+        print
+        print "Au même moment, un scientifique au regard vide sort de la salle des serveurs."
+        print "Il tente de vous attaquer par derrière, mais vous le poussez par terre."
+        print "En tombant il tente de se retenir à vous."
+        print "Ses ongles vous grafigne l'avant bras."
+        print "Vous ne saignez pas, mais la blessure est tout de même apparente."
+        print "Aussi étrangement qu'il est arrivé, l'homme (fou), repart en criant"
+        print
+        print 'Vous revenez à votre objectif : la porte'
         print "Vous approchez la carte du lecteur..."
         raw_input("Appuyez sur [ENTRER]")
         clear()
