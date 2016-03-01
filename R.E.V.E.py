@@ -1177,7 +1177,7 @@ else:
     print "SINON, ILS VOUS AURONT !"
     print
     print "Vous lui demandez plus d'information, mais l'homme s'obstine à ne pas répondre."
-    print "Il vous lance le rouleau et chite en claudiquant. "
+    print "Il vous lance le rouleau et quitte en claudiquant. "
     print
     raw_input("Appuyez sur [ENTRER]")
     clear()
