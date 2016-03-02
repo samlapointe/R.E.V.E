@@ -120,8 +120,10 @@ print "Allonge-toi ici " + nom
 print "Je t'injecte un somnifère..."
 print "Les effets se feront ressentir dans quelques minutes"
 
-print "Tout à l'heure, il sera possible de communiquer ensemble,"
-print "je te guiderai tout le long du périple."
+print "Tout à l'heure, il sera possible de communiquer ensemble. "
+print "En effet, ma machine à une fonction 'injection' qui permet"
+print "d'arrêter temporairement un rêve pour t'envoyer des instructions."
+print "Je te guiderai ainsi tout le long du périple."
 print
 print "Ton subconscient sera en lien avec le système et avec le rêve de mon ex-patient"
 print "Je te donnerai plus de détails lorsque tu auras atteint le sommeil paradoxal"
@@ -308,7 +310,7 @@ if c2=="a":
             print "Vous retentez..."
             print "La porte s'ouvre en un bruit sourd."
             print
-            print '\033[0;32m [ACCES AUTHORIZE]\033[1;m'
+            print '\033[0;32m [ACCES AUTHORIZÉ]\033[1;m'
             print
             raw_input("Appuyez sur [ENTRER]")
             clear()
@@ -335,7 +337,7 @@ if c2=="a":
             print "Vous retentez d'ouvrir la porte"
             print "Elle s'ouvre en un bruit sourd."
             print
-            print '\033[0;32m [ACCES AUTHORIZE]\033[1;m'
+            print '\033[0;32m [ACCES AUTHORIZÉ]\033[1;m'
             print
             raw_input("Appuyez sur [ENTRER]")
             clear()
@@ -429,7 +431,7 @@ if c2=="a":
             print "Vous retentez..."
             print "La porte s'ouvre en un bruit sourd."
             print
-            print '\033[0;32m [ACCES AUTHORIZE]\033[1;m'
+            print '\033[0;32m [ACCES AUTHORIZÉ]\033[1;m'
             print
             raw_input("Appuyez sur [ENTRER]")
             clear()
@@ -456,7 +458,7 @@ if c2=="a":
             print "Vous retentez d'ouvrir la porte"
             print "Elle s'ouvre en un bruit sourd."
             print
-            print '\033[0;32m [ACCES AUTHORIZE]\033[1;m'
+            print '\033[0;32m [ACCES AUTHORIZÉ]\033[1;m'
             print
             raw_input("Appuyez sur [ENTRER]")
             clear()
@@ -554,7 +556,7 @@ else:
            print "Vous courrez vers l'extérieur"
            print "[La lumière blanche envahi l'espace...]"
            print
-           print '\033[0;32m [ACCES AUTHORIZE]\033[1;m'
+           print '\033[0;32m [ACCES AUTHORIZÉ]\033[1;m'
            print
            raw_input("Appuyez sur [ENTRER]")
            clear()
@@ -584,7 +586,7 @@ else:
            print "Vous retentez d'ouvrir la porte"
            print "Elle s'ouvre en un bruit sourd."
            print
-           print '\033[0;32m [ACCES AUTHORIZE]\033[1;m'
+           print '\033[0;32m [ACCES AUTHORIZÉ]\033[1;m'
            print
            raw_input("Appuyez sur [ENTRER]")
            clear()
@@ -675,7 +677,7 @@ else:
             print "Vous courrez vers l'extérieur"
             print "[La lumière blanche envahi l'espace...]"
             print
-            print '\033[0;32m [ACCES AUTHORIZE]\033[1;m'
+            print '\033[0;32m [ACCES AUTHORIZÉ]\033[1;m'
             print
             raw_input("Appuyez sur [ENTRER]")
             clear()
@@ -702,7 +704,7 @@ else:
             print "Vous retentez d'ouvrir la porte"
             print "Elle s'ouvre en un bruit sourd."
             print
-            print '\033[0;32m [ACCES AUTHORIZE]\033[1;m'
+            print '\033[0;32m [ACCES AUTHORIZÉ]\033[1;m'
             print
             raw_input("Appuyez sur [ENTRER]")
             clear()
@@ -1046,6 +1048,8 @@ if resto=="a":
     print "Vous vous retournez et constatez que le propriétaire de la main est un vieil"
     print "homme au regard paranoïaque."
     print
+    print "Étrangement, vous avez l'impression que vous l'avez déjà vu quelque part "
+    print
     print "Il vous tend frénétiquement un vieux journal roulé sur lui même."
     print "- Je sais pourquoi vous êtes ici !!!"
     print "Vous le regardez d'un regard interrogateur."
@@ -1169,6 +1173,8 @@ else:
     clear()
     print "Vous vous retournez et constatez que le propriétaire de la main est un vieil"
     print "homme au regard paranoïaque."
+    print
+    print "Étrangement, vous avez l'impression que vous l'avez déjà vu quelque part "
     print
     print "Il vous tend frénétiquement un vieux journal roulé sur lui même."
     print "- Je sais pourquoi vous êtes ici !!!"
@@ -1424,17 +1430,243 @@ print
 raw_input("Appuyez sur [ENTRER]")
 clear()
 print "Vous commencez à perdre espoir quand vous entendez un bruit."
+print
 print "Le plancher vibre légèrement, les boutons du panneau"
 print "de contrôle se rallument et l'ascenseur recommence son ascension."
 print "C'EST UN MIRACLE !!"
+print
 print "Vous montez quelques secondes, puis l'ascenseur s'arrête."
 print "Cette fois-ci par contre elle le fait de façon plus normale."
 print "[Ping!] [100e ÉTAGE]"
 print "Les portes coulissantes s'ouvrent doucement..."
-
-#
 print
-print '\033[0;32m Le jeu est toujours en conception, revenez bientôt ! \033[1;m'
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print "Tout est très silencieux, un peu trop même."
+print "Vous posez un pied hors de l’ascenseur prudemment, anticipant la suite."
+print
+print "Devant vous, il y a une gigantesque porte dorée, sans poignée."
+print "À gauche comme à droite, un couloir s’étend à l’infini;"
+print "des néons éclairent le passage d’une lumière blanche aveuglante."
+print
+print "Vous êtes attiré vers cette porte,vos mains tremblantes s’apprêtent à la toucher"
+print "mais avant que le contact se fasse, le battant tourne de lui-même."
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print "Vous pénétrez alors dans une salle de taille moyenne et assez mal éclairée."
+print "Toutefois, l’envers du décor vous importe peu, car vous venez de poser"
+print "les yeux sur une table de chirurgie occupée par une personne."
+print
+print "L’individu est branché à toutes sortes de machines produisant différents sons."
+print "Vous vous approchez du patient à pas de loup."
+print "Vous ignorez s’il est conscient ou non."
+print "Vous pouvez maintenant apercevoir son visage et la vision vous paralyse."
+print
+print "Sur la table, juste sous vos yeux, se trouve votre corps, trait pour trait!"
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print "Vous foncez dans quelque chose, ou plutôt quelqu’un, dans votre dos."
+print "Il s’agit du docteur Wonderstone."
+print
+print "- Bonjour " + nom + "! Alors, vous avez fait bonne route?"
+print
+print "Aucun son ne sort de votre bouche."
+print
+print "- Vous devez vous demander pourquoi vous êtes ici, deux fois au lieu d’une."
+print "  Laissez-moi vous expliquer."
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print "- Vous vous souvenez de notre rencontre?"
+print "  Des choses dont nous avons discutés avant que vous plongiez dans le sommeil?"
+print "  Je vous avais averti qu’il était primordial de ne pas toucher"
+print "  le créateur du rêve lorsque vous le rencontreriez, auquel cas cela"
+print "  entraînerait une interférence entre son subconscient et le vôtre."
+print "  Eh bien, " + nom +" , vous avez failli à votre tâche."
+print
+print "Votre coeur se met à battre très rapidement. Vous avez chaud."
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print "Comment ça, failli à votre tâche?"
+print "Vous avez traversé toutes ces épreuves pour vous faire dire que vous avez échoué ?!"
+print
+print "- Faites un effort et rappelez-vous de votre marche dans la cité."
+print "  Ne vous a-t-on pas interpelé? Un homme vous a tendu un journal, n’est-ce pas?"
+print "  Et qu’avez-vous remarqué de spécial chez cet individu?"
+print
+print "Soudain, tout vous revient en mémoire."
+print "L’expression du visage de l’homme fou avait effectivement attiré votre attention."
+print "Quelque chose vous semblait familier dans ses traits, mais quoi donc? "
+print "Sa peau? Sa bouche? Ses dents? Ou… Ses yeux."
+print "L’homme avait exactement les mêmes yeux que vous."
+print
+print "- Oui, vous avez deviné " + nom + ". Enfin, partiellement. "
+print "  Cet homme n’était qu’une reproduction de votre subconscient,"
+print "  destinée à vous faire croire que vous viviez dans un monde inventé par un autre,"
+print "  tandis qu’en réalité, vous êtes le créateur de ce rêve."
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print "Vous commencez à avoir peur. Comment cela se pourrait-il? "
+print "Vous regardez une des nombreuses machines auxquelles est branché le patient,"
+print "auxquelles VOUS êtes branché."
+print
+print "Il s’agit d’un écran où se déroule une séquence d’images que vous avez déjà vues… "
+print "En fait, il s’agit du rêve, ce même rêve que vous faites en ce moment!"
+print
+print "- Regardez-moi dans les yeux " + nom + ". Les reconnaissez-vous?"
+print
+print "Le docteur a un rire sarcastique."
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print "- On dit que les yeux sont le reflet de l’âme."
+print "  Je dirais plutôt qu’ils sont le reflet du subconscient, non?"
+print
+print "Les morceaux du casse-tête commencent à s’assembler dans votre tête."
+print "Si comme le docteur Wonderstone l’affirme, vous avez échoué"
+print "et vous êtes entré en contact avec le créateur du rêve, cela voudrait dire que…"
+print
+print "- Et voilà, vous avez deviné. Depuis le début, vous êtes le patient, le tout premier."
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print "- Au début de mes expériences, j’ai essayé de convaincre les gens de participer à mon étude,"
+print "  mais personne n’a accepté, même avec une compensation financière."
+print "  Pour eux, ça comportait « trop de risque », BULLSHIT !"
+print "  La technique « transparence et honnêteté» n’a rien apporté."
+print
+print "  J’ai alors tenté d’en attirer d’autres, en leurs faisant croire que c’était sans risque,"
+print "  ça a failli marcher… Mais NON !"
+print "  Il a fallu que le docteur, hum pardon ,l’ex-docteur Nik Sparkle"
+print "  vienne se fourrer le nez dans mes affaires et alerte toute la communauté scientifique."
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print "- Quand vous êtes arrivé, vous étiez ma dernière chance. Mon seul espoir."
+print "  Je ne pouvais pas prendre le risque d’échouer à nouveau."
+print "  Comme on dit, il n’y a pas de science sans risques ..."
+print
+print "  Je n’ai donc eu aucun autre choix que de vous mentir."
+print "  Les gens sont toujours plus coopératifs quand ils ont la chance de jouer les héros…"
+print "  Je dois toutefois vous remercier."
+print "  Vous m’avez grandement aidé dans mes recherches, mais ce n’est que le début."
+print
+print "  J’ai plusieurs autres séries de test à faire avant d’enfin pouvoir"
+print "  publier mon grand recueil sur la science du subconscient."
+print "  Celui-ci me permettra de retrouver la confiance de la communauté scientifique"
+print "  et peut-être même de gagner un prix Nobel!"
+print
+print "- Bon bon bon assez parlé, de toute façon, cela doit bien faire une bonne dizaine de fois"
+print "  que nous avons cette conversation…  Je dois toujours vous le réexpliquer…"
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print "Votre coeur bat tellement vite dans votre poitrine qu’il semble sur le point de la transpercer."
+print
+print "- D’ici quelques secondes, vous tomberez au sol, en croyant que vous faites un arrêt cardiaque."
+print "  Votre coeur bat à un rythme effréné, je me trompe?"
+print
+print "Vos mains sont moites. Une douleur sourde dans votre bras gauche se fait ressentir."
+print "Vous vous écroulez au sol."
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print "- Rien de cela n’est réel " + nom + ". C’est vous qui l’imaginez, entièrement vous."
+print "  Vous n’êtes que mon seul candidat, je ne peux pas vous laisser partir."
+print "  Tant que vous resterez physiquement endormi, vous serez sous mon contrôle."
+print "  De toute façon pas de danger que vous ne vous réveillez,"
+print "  je vous ai placé sous un très fort sédatif."
+print
+print "Votre vision se brouille, vous avez de la difficulté à respirer."
+print
+print "- Bon, c’est bientôt l’heure!"
+print "  Je vous – me, en l’occurrence – souhaite un bon retour au début de votre nouveau rêve…"
+print "  À tout à l’heure!"
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print "La douleur cesse aussi subitement qu’elle avais commencé. "
+print "Vous vous sentez par contre faible et fatigué."
+print "Au alentour, les couleurs s’estompent pour laisser place à cet univers blanc lumineux sans dimension."
+print "Après quelques temps, vous entendez vaguement  une voix, faible et éloignée."
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print
+print "- M’en…..en..ous"
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print
+print "- " + nom.upper() + " !"
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print
+print "- ..veillez… vous"
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print "Vous sentez quelque chose sur votre bras, comme si l’on vous effleurait doucement."
+print "La voix devient de plus en plus forte, tout comme la pression que vous sentez sur votre épaule."
+print
+print "- " + nom + ", m’entendez-vous."
+print "- Réveillez-vous."
+print
+print "Difficilement vous parvenez à ouvrir les yeux."
+print "La lumière du monde réel vous aveugle."
+print
+print "Deux hommes en uniforme noir et un autre en blanc (probablement un médecin)"
+print "transportent votre civière vers une ambulance."
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print "Au loin, vous croyez apercevoir le Dr Wonderstone, la tête baissée,"
+print "escorté par deux autres hommes habillés comme ceux qui vous ont réveillé."
+print
+print "- Vous êtes en sécurité maintenant, vous explique le blanc"
+print "  Nous aimerions seulement vous… examiner avant de vous reconduire chez vous."
+print "  Nous ne voudrions pas que vous ayez des séquelles."
+print
+print "Vous sentez dans sa voix un genre d’hésitation."
+print
+print "- D’ici là reposez vous, nous allons vous injectez un somnifère…"
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print
+print "[...]"
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print
+print "[...]"
+print
+print "[...]"
+print
+raw_input("Appuyez sur [ENTRER]")
+clear()
+print
+print "[...]"
+print
+print "[...]"
+print
+print '\033[0;32m [À SUIVRE...]\033[1;m'
+print
+print '\033[0;32m     [FIN]\033[1;m'
+print
+print
+print "Histoire créée par Olivier Brassard, Camille Brassard & Sandrine Jodoin"
+print "Développé par Olivier Brassard"
+print "Modification et amélioration par Savannah Legault"
+print 'Corrections effectuées par Samuel Lapointe'
+print "______________________________________________________"
+print 
+print
 
 # >>> $ python -m py_compile script.py
-# >>> 60% for printing accuracy
+# >>> 68% for printing accuracy
