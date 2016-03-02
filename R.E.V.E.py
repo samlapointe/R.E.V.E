@@ -1050,7 +1050,7 @@ if resto=="a":
     print
     print "Étrangement, vous avez l'impression que vous l'avez déjà vu quelque part "
     print
-    print "Il vous tend frénétiquement un vieux journal roulé sur lui même."
+    print "Il vous tend convulsivement un vieux journal roulé sur lui même."
     print "- Je sais pourquoi vous êtes ici !!!"
     print "Vous le regardez d'un regard interrogateur."
     print "- Vous devez vite vous rendre là-bas, vous dit-il tout en mettant le vieux papier en évidence. "
@@ -1176,7 +1176,7 @@ else:
     print
     print "Étrangement, vous avez l'impression que vous l'avez déjà vu quelque part "
     print
-    print "Il vous tend frénétiquement un vieux journal roulé sur lui même."
+    print "Il vous tend convulsivement un vieux journal roulé sur lui même."
     print "- Je sais pourquoi vous êtes ici !!!"
     print "Vous le regardez d'un regard interrogateur."
     print "- Vous devez vite vous rendre là-bas, vous dit-il tout en mettant le vieux papier en évidence. "
@@ -1665,7 +1665,7 @@ print "Développé par Olivier Brassard"
 print "Modification et amélioration par Savannah Legault"
 print 'Corrections effectuées par Samuel Lapointe'
 print "______________________________________________________"
-print 
+print
 print
 
 # >>> $ python -m py_compile script.py
