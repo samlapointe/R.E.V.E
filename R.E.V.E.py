@@ -50,7 +50,7 @@ else:
    print
    print "La plupart du temps, vous ne vous rappelez pas de vos rêves."
    print "Ils ne sont que le fruit de votre imagination ..."
-   rev=raw_input("N'est-ce pas ? (oui/non): ")
+   rev=raw_input("N'est-ce pas ? (Oui [a] / Non [b]): ")
    clear()
    print "------------------- "
    print "Peu importe..."
@@ -89,22 +89,22 @@ else:
 
 #start
 
-jouer=raw_input("Pour cela, j'ai besoin de votre aide. [o/n]: ")
-if jouer=="o":
+jouer=raw_input("Pour cela, j'ai besoin de votre aide. [Oui [a] / Non [b]]: ")
+if jouer=="a":
    clear()
    print "Très bien " + nom + " !"
    print "Nous n'avons pas de temps à perdre."
    print "Débutons..."
    True
-elif jouer=="n":
+elif jouer=="b":
    clear()
    print "Êtes-vous certain ? :"
-   quit=raw_input("[o/n] : ")
-   if quit=="o":
+   quit=raw_input("[Oui [a] / Non [b]] : ")
+   if quit=="a":
        print "Au revoir, alors"
        import sys
        sys.exit("\033[0;31m [PARTIE TERMINÉE]\033[1;m")
-   elif quit=="n":
+   elif quit=="b":
        clear()
        print "Nous n'avons pas de temps à perdre."
        print "Débutons..."
