@@ -245,15 +245,15 @@ if c2=="a":
         print "Vous arrivez alors au couloir"
         print "Celui-ci contient deux portes."
         print "la '501A' et la '502A'"
-        print "Laquelle choisir ??"
+        print "Laquelle choisir ?"
         port=raw_input("501A [a], 502A [b]")
         if port=="a":
             clear()
             print "La salle est très grande."
-            print "Vous entrez en toute discrétion grasse à votre fabuleux déguisement"
+            print "Vous entrez en toute discrétion graçe à votre fabuleux déguisement"
             print "Vous explorez tranquillement sous  le regard interrogé des scientifiques."
             print "Toutefois, ceux-ci ne semblent pas trop comprendre la situation"
-            print "Ils n'ont  pas l'aire  d'être très sain d'esprit."
+            print "Ils n'ont  pas l'air  d'être très sain d'esprit."
             print "Vous remarquez qu'il n'y a rien de vraiment intéressant alors vous sortez..."
             raw_input("Appuyez sur [ENTRER]")
             clear()
@@ -261,7 +261,7 @@ if c2=="a":
             print "Vous vous présentez alors devant l'autre salle."
             print "La porte coulissante s'ouvre automatiquement"
             print "[SON ÉLECTRONIQUE]"
-            print "Il s'agit d'une salle pleine d'équipement informatique"
+            print "Il s'agit d'une salle pleine d'équipements informatiques"
             print "Plus précisément, une salle des serveurs"
             print
             print "[VOUS TROUVEZ UNE CARTE MAGNÉTIQUE]"
@@ -275,7 +275,7 @@ if c2=="a":
             print "Vous vous présentez alors devant la porte 502A."
             print "La porte coulissante s'ouvre automatiquement"
             print "[SON ÉLECTRONIQUE]"
-            print "Il s'agit d'une salle pleine d'équipement informatique"
+            print "Il s'agit d'une salle pleine d'équipements informatiques"
             print "Plus précisément, une salle des serveurs"
             print
             print "[VOUS TROUVEZ UNE CARTE MAGNÉTIQUE]"
@@ -290,8 +290,8 @@ if c2=="a":
         print "Vous vous approchez de cette porte et tentez de l'ouvrir"
         print
         print "Au même moment, un scientifique au regard vide sort de la salle des serveurs."
-        print "Il tente de vous attaquer par derrière, mais vous le poussez par terre."
-        print "En tombant il tente de se retenir à vous."
+        print "Il tente de vous attaquer par derrière, mais vous le plaquez au sol."
+        print "En tombant, il tente de se retenir à vous."
         print "Ses ongles vous grafignent l'avant-bras."
         print "Vous ne saignez pas, mais la blessure est tout de même apparente."
         print "Aussi étrangement qu'il est arrivé, l'homme (fou), repart en criant"
@@ -310,7 +310,7 @@ if c2=="a":
             print "Vous retentez..."
             print "La porte s'ouvre en un bruit sourd."
             print
-            print '\033[0;32m [ACCES AUTHORIZÉ]\033[1;m'
+            print '\033[0;32m [ACCÈS AUTORISÉ]\033[1;m'
             print
             raw_input("Appuyez sur [ENTRER]")
             clear()
@@ -328,7 +328,7 @@ if c2=="a":
             print '\033[0;31m [ACCÈS REFUSÉ]\033[1;m'
             raw_input("Appuyez sur [ENTRER]")
             clear()
-            print "Une alarme retentis soudainement:"
+            print "Une alarme retenti soudainement:"
             print '\033[0;31m [ALERTE 5 - INTRUSION AU SYSTÈME]\033[1;m'
             raw_input("Appuyez sur [ENTRER]")
             clear()
@@ -337,7 +337,7 @@ if c2=="a":
             print "Vous retentez d'ouvrir la porte"
             print "Elle s'ouvre en un bruit sourd."
             print
-            print '\033[0;32m [ACCES AUTHORIZÉ]\033[1;m'
+            print '\033[0;32m [ACCÈS AUTORISÉ]\033[1;m'
             print
             raw_input("Appuyez sur [ENTRER]")
             clear()
@@ -350,7 +350,7 @@ if c2=="a":
         clear()
         print "Vous rebroussez chemin"
         print "Après un peu de marche, vous sautez dans la seconde pièce"
-        print "Elle contient toute sorte de placards vitres"
+        print "Elle contient toutes sortes de placards vitrés"
         print "Vous choisissez une des portes de cette pièce ronde et peu éclairée"
         print "Vous examinez son contenu."
         raw_input("Appuyez sur [ENTRER]")
@@ -362,7 +362,7 @@ if c2=="a":
         print "Vous sortez par la porte principale"
         raw_input("Appuyez sur [ENTRER]")
         clear()
-        print "Vous arrivez alors a un couloir"
+        print "Vous arrivez alors à un couloir"
         print "Celui-ci contient deux portes."
         print "la '501A' et la '502A'"
         print "Laquelle choisir ??"
